@@ -1,0 +1,123 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://raw.githubusercontent.com/elevenY123/EvoCenter/main/assets/banner.png",
+  "tintColor": "#007AFF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "介绍",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Evo Center"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Evo Center 是一款适用于 iOS 16.0–16.6 和 iOS 17.0–17.4 的控制中心自定义插件。在熟悉的系统交互基础上，提供更灵活的模块尺寸、更便捷的常用控制，以及可自由调整的外观。\n\n为音乐、连接、音量、亮度等模块选择适合自己的布局，将常用专注模式与快捷指令放进控制中心，再通过圆角、背景透明度和图标着色打造属于你的控制中心。\n\n从布局到操作，让控制中心更适合你的使用习惯。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "自由布局"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "为不同模块选择合适的尺寸与布局，让信息更清晰，也让常用控制触手可及。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "便捷控制"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "从音乐播放、网络连接到专注模式与快捷指令，把日常需要的操作汇集在控制中心。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "个性外观"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "调整模块圆角、背景透明度与图标着色，在熟悉的系统界面中，打造属于你的风格。"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "兼容与安装"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 16.0 - 16.6 / iOS 17.0 - 17.4"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "beta2.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "分类",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "beta2 与 beta1.0 的包名不同。安装 beta2 时需移除旧包 com.jaysuen.ccflex16，避免重复注入。支持范围不包含 iOS 16.7、16.7.x 和其他未列出的系统版本。"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "beta2.0 更新日志"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 重写了音乐模块，bug相比之前少很多。移除了4x4、4x6两个不常用的大尺寸，新增了一个不同样式的4x2尺寸。\n2. 完善了连接模块的所有尺寸显示问题\n3. 音量、亮度模块新增：竖向1x1和横向2x1、3x1、4x1尺寸。\n4. 新增专注模式独立模块。现用户设置的所有专注模式可在控制中心作为模块添加，方便快速启用自己的常用专注模式。\n5. Focus模块新增了一个2x2尺寸。支持同时显示最多4个专注模式按钮；移除了1x1尺寸。\n6. 优化了模块圆角实现方式"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "关于与反馈",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "署名"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "chatgpt5.6（sol） · JaySuen"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "反馈与建议"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "反馈 Bug 和建议：在酷安 App 搜索用户名 JAYSuen 私信，或搜索插件名称 Evo Center，找到最新帖子评论。反馈时建议注明系统版本、插件版本、复现步骤，并附截图或崩溃日志。"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "打开酷安官网",
+          "action": "https://www.coolapk.com/",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "致谢"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "向 ccborder16、horizontalsliders、bettercc 致敬，感谢它们在控制中心布局与美化方面的探索，为 Evo Center 的设计与实现提供了宝贵启发。"
+        }
+      ]
+    }
+  ]
+}

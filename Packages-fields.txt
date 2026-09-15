@@ -1,0 +1,9 @@
+Package: com.jaysuen.evocenter
+Author: chatgpt5.6（sol）, JaySuen
+Maintainer: chatgpt5.6（sol）, JaySuen
+Name: Evo Center
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/elevenY123/EvoCenter/main/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://raw.githubusercontent.com/elevenY123/EvoCenter/main/native.json
+Homepage: https://eleveny123.github.io/EvoCenter/
