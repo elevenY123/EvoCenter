@@ -1,7 +1,7 @@
 {
   "package": "com.jaysuen.evocenter",
   "name": "Evo Center",
-  "version": "2.0.0-beta.2-5",
+  "version": "2.0.0-beta.2-6",
   "releaseLabel": "beta2.0",
   "authors": ["chatgpt5.6（sol）", "JaySuen"],
   "section": "Tweaks",
@@ -16,7 +16,7 @@
   ],
   "feedback": "反馈 Bug 和建议：在酷安 App 搜索用户名 JAYSuen 私信，或搜索插件名称 Evo Center，找到最新帖子评论。反馈时建议注明系统版本、插件版本、复现步骤，并附截图或崩溃日志。",
   "credits": "向 ccborder16、horizontalsliders、bettercc 致敬，感谢它们在控制中心布局与美化方面的探索，为 Evo Center 的设计与实现提供了宝贵启发。",
-  "upgradeNote": "beta2 与 beta1.0 的包名不同。安装 beta2 时需移除旧包 com.jaysuen.ccflex16，避免重复注入。支持范围不包含 iOS 16.7、16.7.x 和其他未列出的系统版本。",
+  "upgradeNote": "",
   "changelog": [
     "重写了音乐模块，bug相比之前少很多。移除了4x4、4x6两个不常用的大尺寸，新增了一个不同样式的4x2尺寸。",
     "完善了连接模块的所有尺寸显示问题",

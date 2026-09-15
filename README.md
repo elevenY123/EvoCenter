@@ -16,16 +16,17 @@
 
 公开仓库：https://github.com/elevenY123/EvoCenter 。仅发布展示资料，不包含插件源码。
 网页介绍：https://eleveny123.github.io/EvoCenter/ 。
-图标、横幅及 Sileo 原生 JSON 使用 GitHub raw HTTPS 地址。
+图标、横幅及 Sileo 原生 JSON 使用 GitHub Pages HTTPS 地址；JSON 以 application/json 提供。
 此方案不需要建立 APT 软件源，与 Infinidock16 Revival 的展示方式一致。
 
 在项目根目录生成展示文件：
 
 ```sh
-python3 Tools/prepare-store.py --base-url https://raw.githubusercontent.com/elevenY123/EvoCenter/main --web-url https://eleveny123.github.io/EvoCenter/
+python3 Tools/prepare-store.py --base-url https://eleveny123.github.io/EvoCenter --web-url https://eleveny123.github.io/EvoCenter/
 ```
 
 本目录内容发布到仓库根目录。`Packages-fields.txt` 的展示字段已写入 deb 的 control。
+展示图片不打包进 deb；插件运行不依赖本目录。原始图片仅保留在展示仓库中。
 未来上架软件源时也可合并这些字段；保留源工具生成的 Filename、Size、SHA256 等字段。
 
 Sileo 原生页使用 `SileoDepiction`；兼容网页介绍使用 `Depiction`；

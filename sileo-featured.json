@@ -4,7 +4,7 @@
   "itemCornerRadius": 10,
   "banners": [
     {
-      "url": "https://raw.githubusercontent.com/elevenY123/EvoCenter/main/assets/banner.png",
+      "url": "https://eleveny123.github.io/EvoCenter/assets/banner.png",
       "title": "Evo Center",
       "package": "com.jaysuen.evocenter",
       "hideShadow": false

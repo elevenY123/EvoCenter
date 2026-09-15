@@ -1,7 +1,7 @@
 {
   "class": "DepictionTabView",
   "minVersion": "0.4",
-  "headerImage": "https://raw.githubusercontent.com/elevenY123/EvoCenter/main/assets/banner.png",
+  "headerImage": "https://eleveny123.github.io/EvoCenter/assets/banner.png",
   "tintColor": "#007AFF",
   "tabs": [
     {
@@ -62,10 +62,6 @@
           "class": "DepictionTableTextView",
           "title": "分类",
           "text": "Tweaks"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "beta2 与 beta1.0 的包名不同。安装 beta2 时需移除旧包 com.jaysuen.ccflex16，避免重复注入。支持范围不包含 iOS 16.7、16.7.x 和其他未列出的系统版本。"
         }
       ]
     },
