@@ -1,0 +1,52 @@
+Package: com.jaysuen.evocenter
+Version: 2.5.0-beta.2
+Architecture: iphoneos-arm64e
+Maintainer: chatgpt5.6（sol）, JaySuen
+Installed-Size: 11068
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/EvoCenter_2.5.0-beta.2_roothide.deb
+Size: 331806
+MD5sum: 07a4cf69787ca66f54692fab1834a0aa
+SHA1: 1ca9431405f909db7919808647cc76227cef8ccc
+SHA256: 6f5311c7bb3e23a0ef07d82b60cca88cde904841a1175e2f722024a5cfc12e17
+Section: Tweaks
+Homepage: https://eleveny123.github.io/EvoCenter/
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-16.6、iOS 17.0-17.4，其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Author: chatgpt5.6（sol）, JaySuen
+Depiction: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Name: Evo Center
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=2.5.0-beta.2
+
+Package: com.jaysuen.evocenter
+Version: 2.5.0-beta.2
+Architecture: iphoneos-arm64
+Maintainer: chatgpt5.6（sol）, JaySuen
+Installed-Size: 10468
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/EvoCenter_2.5.0-beta.2_rootless.deb
+Size: 302426
+MD5sum: e86f05f157c63558e80d12eff2f43915
+SHA1: 5910a76cd2003da40af694ae9c236aa042eceba3
+SHA256: 2c3b851532bd178090ab8fd21d49c91598927cdb7964d1377cf6eb6ba5641abc
+Section: Tweaks
+Homepage: https://eleveny123.github.io/EvoCenter/
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-16.6、iOS 17.0-17.4，其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Author: chatgpt5.6（sol）, JaySuen
+Depiction: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Name: Evo Center
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=2.5.0-beta.2
+

@@ -1,0 +1,19 @@
+Origin: JaySuen Repo
+Label: JaySuen Repo
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Description: JaySuen iOS jailbreak tweak repository
+Icon: https://eleveny123.github.io/EvoCenter/CydiaIcon.png
+Date: Sat, 19 Sep 2026 09:50:15 GMT
+MD5Sum:
+ d83c85d65b0e580c5d155c5c16719474             2457 Packages
+ 57d90491c60d1931c51e8c047fcd9328              991 Packages.gz
+ 266b9e5eda3281a000b7751d31337d41             1169 Packages.bz2
+ c8d0a8a14042c0770b6f3bb297fc0a22              980 Packages.xz
+SHA256:
+ 7fb8d842f87a9b53fc2c0580068fe8495dcba574c1587482315bdc23afd80449             2457 Packages
+ 14a8f95636d7284cf2c1592b3b4ddcc7a7ac88e573095496f0324902351c97b7              991 Packages.gz
+ b30fd5fba8f906f34dba85d157ef8446836f25cf8d63eda0ae24cca6ad9a52d6             1169 Packages.bz2
+ 4c0c82b3429af76c9fddbd1796bf226efa21d3bd1ea850d33a53eee513f67d3e              980 Packages.xz
