@@ -1,19 +1,30 @@
 Origin: JaySuen Repo
 Label: JaySuen Repo
 Suite: stable
-Codename: stable
+Codename: ios
+Components: main
 Version: 1.0
-Architectures: iphoneos-arm64 iphoneos-arm64e
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Description: JaySuen iOS jailbreak tweak repository
-Icon: https://eleveny123.github.io/EvoCenter/CydiaIcon.png
-Date: Sat, 19 Sep 2026 09:50:15 GMT
+Icon: https://eleveny123.github.io/CydiaIcon.png
+Date: Sat, 19 Sep 2026 12:44:31 GMT
 MD5Sum:
  d83c85d65b0e580c5d155c5c16719474             2457 Packages
  57d90491c60d1931c51e8c047fcd9328              991 Packages.gz
  266b9e5eda3281a000b7751d31337d41             1169 Packages.bz2
  c8d0a8a14042c0770b6f3bb297fc0a22              980 Packages.xz
+SHA1:
+ 504ecb0fdeccc28f20356fb8a2bb93fc562fc1fc             2457 Packages
+ ae50c2709cde5118eec43f56aaccaff336898478              991 Packages.gz
+ 303f1fdc8fc34ce61e8d69aaec9005ac8eb09e8b             1169 Packages.bz2
+ f2919a88b1ecdc7e3f9300f77bf18b22d474f5dc              980 Packages.xz
 SHA256:
  7fb8d842f87a9b53fc2c0580068fe8495dcba574c1587482315bdc23afd80449             2457 Packages
  14a8f95636d7284cf2c1592b3b4ddcc7a7ac88e573095496f0324902351c97b7              991 Packages.gz
  b30fd5fba8f906f34dba85d157ef8446836f25cf8d63eda0ae24cca6ad9a52d6             1169 Packages.bz2
  4c0c82b3429af76c9fddbd1796bf226efa21d3bd1ea850d33a53eee513f67d3e              980 Packages.xz
+SHA512:
+ a15cad32a972a7ae2c5e359450c81efe7f54c56901a5ecc8ce05f48f8b2f18a2c01e6524f3c468ecc38611dfbc61d9631b3f00b992a6c4e170fd2d4c65a8dcf4             2457 Packages
+ 91dcde1d1f0481e8a13a90a44f82ed27a11272956c431521b12746bda020b16015852c5594d3bc22af8a5aaf21b802d444c153934c3b9a1eb546575b9e747012              991 Packages.gz
+ 6274501e648a108d9793328ddcdcb07c0b670cf196a71cbc2ee0904f6c7544d11a7df3a69baa21e22dc4471e6cc6ab39bd58b00963dfb66a7955f62b2449d11a             1169 Packages.bz2
+ 32a27ab3ae7db7bdfb6d5958471841d407a2e2b121b00b3a6b6329e6fa8754500c96e3001ab96d0cdbcd7aaaf65afb3884b3ab16cac73785ec0ff2926a5dc3a1              980 Packages.xz
