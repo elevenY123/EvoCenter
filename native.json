@@ -18,31 +18,31 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Evo Center 是一款适用于 iOS 16.0–16.6 和 iOS 17.0–17.4 的控制中心自定义插件。在熟悉的系统交互基础上，提供更灵活的模块尺寸、更便捷的常用控制，以及可自由调整的外观。\n\n为音乐、连接、音量、亮度等模块选择适合自己的布局，将常用专注模式与快捷指令放进控制中心，再通过圆角、背景透明度和图标着色打造属于你的控制中心。\n\n从布局到操作，让控制中心更适合你的使用习惯。"
+          "markdown": "Evo Center 是一款适用于 iOS 16.0–16.6 和 iOS 17.0–17.4 的控制中心自定义插件。在熟悉的系统交互基础上，提供更灵活的模块尺寸、更便捷的常用控制，以及可自由调整的外观。\n\nBeta3.0 新增控制中心分页、5列显示与整体缩放，支持开关类模块启用后的图标颜色自定义，并可将HomeKit设备直接添加至控制中心。连接与Focus模块新增布局和图标排序，快捷指令支持双指令组合，播放控制支持背景着色，另有8个透明空白模块帮助实现更多布局。\n\n从布局到操作，让控制中心更适合你的使用习惯。"
         },
         {
           "class": "DepictionSubheaderView",
-          "title": "自由布局"
+          "title": "分页与自由布局"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "为不同模块选择合适的尺寸与布局，让信息更清晰，也让常用控制触手可及。"
+          "markdown": "将常用模块分成多个页面，左右或上下翻页。搭配5列显示、整体缩放与多种模块尺寸，让控制中心按你的习惯排列。"
         },
         {
           "class": "DepictionSubheaderView",
-          "title": "便捷控制"
+          "title": "自定义图标颜色"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "从音乐播放、网络连接到专注模式与快捷指令，把日常需要的操作汇集在控制中心。"
+          "markdown": "为开关类模块设置启用后的图标颜色，搭配模块圆角、背景透明度与播放背景着色，打造属于你的控制中心。"
         },
         {
           "class": "DepictionSubheaderView",
-          "title": "个性外观"
+          "title": "HomeKit设备控制"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "调整模块圆角、背景透明度与图标着色，在熟悉的系统界面中，打造属于你的风格。"
+          "markdown": "把HomeKit设备直接加入控制中心，为常用设备选择合适的模块尺寸，让家庭控制与日常操作集中在一起。"
         },
         {
           "class": "DepictionHeaderView",
@@ -56,12 +56,16 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "Beta 2.5 测试版"
+          "text": "Beta3.0 测试版（3.0.0-beta.2）"
         },
         {
           "class": "DepictionTableTextView",
           "title": "分类",
           "text": "Tweaks"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "升级保留现有设置。安装Beta3.0后首次进入控制中心添加页会展示新版欢迎介绍，仅自动展示一次；之后可在控制中心自定义底部手动重新查看。"
         }
       ]
     },
@@ -69,6 +73,14 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Beta3.0 更新日志"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 新增homekit设备模块可添加至控制中心\n2. “连接”模块新增一个2x2尺寸样式，增加自定义图标排序\n3. “focus”模块新增一个2x2尺寸、一个2x1尺寸，增加自定义图标排序\n4. 新增控制中心分页功能，可选择左右或上下翻页\n5. 新增控制中心5列显示，新增控制中心整体缩放\n6. 新增模块启用后的图标颜色自定义（仅限开关类模块，跳转类模块没有）\n7. 新增“快捷指令”模块组合功能（将两个快捷指令合并为一个“开关”）\n8. 新增“播放控制”模块背景着色\n9. 解除了视频通话等场景时强制出现在最上方的”麦克风模式“”视频效果“两个模块，现可作为模块自由添加\n10. 新增8个“透明空白模块，帮助实现控制中心更多种布局的可能性\n11. 修复已删除的快捷指令仍出现在可添加模块列表和组合选择列表中的问题。\n12. 修复了几个bug，新增了无数bug"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "Beta 2.5 更新日志"
@@ -97,7 +109,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "chatgpt5.6（sol） · JaySuen"
+          "markdown": "chatgpt5.6sol · chatgpt6.1sol · JaySuen"
         },
         {
           "class": "DepictionHeaderView",
