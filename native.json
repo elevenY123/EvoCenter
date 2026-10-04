@@ -45,11 +45,11 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "署名"
+          "title": "开发者"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "chatgpt5.6sol · chatgpt6.1sol · JaySuen"
+          "markdown": "- ChatGPT 5.6（Sol）\n- ChatGPT 6.1（Sol）\n- JaySuen"
         },
         {
           "class": "DepictionHeaderView",
@@ -78,14 +78,17 @@
           "title": "兼容与安装"
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "支持系统",
-          "text": "iOS 16.0 - 16.6 / iOS 17.0 - 17.4"
+          "class": "DepictionSubheaderView",
+          "title": "支持系统"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "iOS 16.0 - 16.6  \niOS 17.0 - 17.4"
         },
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "Beta3.0 测试版（3.0.0-beta.3）"
+          "text": "Beta3.0测试版"
         },
         {
           "class": "DepictionTableTextView",
@@ -100,7 +103,7 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Beta3.0 兼容性更新（3.0.0-beta.3）"
+          "title": "Beta3.0兼容性更新"
         },
         {
           "class": "DepictionMarkdownView",
@@ -108,7 +111,7 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Beta3.0 更新日志（3.0.0-beta.2）"
+          "title": "Beta3.0功能性更新"
         },
         {
           "class": "DepictionMarkdownView",
@@ -116,7 +119,7 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Beta 2.5 更新日志"
+          "title": "Beta2.5修复性更新"
         },
         {
           "class": "DepictionMarkdownView",
@@ -124,7 +127,7 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Beta 2.0 更新日志"
+          "title": "beta2.0功能性更新"
         },
         {
           "class": "DepictionMarkdownView",

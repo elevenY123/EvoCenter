@@ -2,9 +2,10 @@
   "package": "com.jaysuen.evocenter",
   "name": "Evo Center",
   "version": "3.0.0-beta.3",
-  "releaseLabel": "Beta3.0 测试版（3.0.0-beta.3）",
-  "changelogTitle": "Beta3.0 兼容性更新（3.0.0-beta.3）",
+  "releaseLabel": "Beta3.0测试版",
+  "changelogTitle": "Beta3.0兼容性更新",
   "authors": ["chatgpt5.6sol", "chatgpt6.1sol", "JaySuen"],
+  "developers": ["ChatGPT 5.6（Sol）", "ChatGPT 6.1（Sol）", "JaySuen"],
   "section": "Tweaks",
   "tintColor": "#007AFF",
   "supportedOS": ["iOS 16.0 - 16.6", "iOS 17.0 - 17.4"],
@@ -31,7 +32,7 @@
   ],
   "previousChangelogs": [
     {
-      "title": "Beta3.0 更新日志（3.0.0-beta.2）",
+      "title": "Beta3.0功能性更新",
       "items": [
         "新增homekit设备模块可添加至控制中心",
         "“连接”模块新增一个2x2尺寸样式，增加自定义图标排序",
@@ -48,7 +49,7 @@
       ]
     },
     {
-      "title": "Beta 2.5 更新日志",
+      "title": "Beta2.5修复性更新",
       "items": [
         "修复快捷指令和专注模式模块不可用的 bug。",
         "修复播放控制模块 4×2 尺寸专辑封面模糊的 bug；适当优化所有播放控制模块从展开视图返回紧凑视图动画过程中的黑影，但尚未完全解决。",
@@ -60,7 +61,7 @@
       ]
     },
     {
-      "title": "Beta 2.0 更新日志",
+      "title": "beta2.0功能性更新",
       "items": [
         "重写了音乐模块，bug相比之前少很多。移除了4x4、4x6两个不常用的大尺寸，新增了一个不同样式的4x2尺寸。",
         "完善了连接模块的所有尺寸显示问题。",
