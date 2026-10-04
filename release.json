@@ -8,7 +8,14 @@
   "section": "Tweaks",
   "tintColor": "#007AFF",
   "supportedOS": ["iOS 16.0 - 16.6", "iOS 17.0 - 17.4"],
-  "summary": "重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。",
+  "summary": "为旧系统带来类似ios18的现代化控制中心体验。",
+  "screenshots": [
+    {"path": "assets/screenshots/1.jpg", "accessibilityText": "Evo Center截图1：控制中心现代连接与Focus布局、自定义图标颜色", "width": 1311, "height": 2670},
+    {"path": "assets/screenshots/2.jpg", "accessibilityText": "Evo Center截图2：HomeKit设备、温湿度与家庭控制模块", "width": 1311, "height": 2670},
+    {"path": "assets/screenshots/3.jpg", "accessibilityText": "Evo Center截图3：控制中心分页与不同尺寸的播放控制布局", "width": 1311, "height": 2670},
+    {"path": "assets/screenshots/4.jpg", "accessibilityText": "Evo Center截图4：整体缩放、5列显示与上下分页设置", "width": 1311, "height": 2670},
+    {"path": "assets/screenshots/5.jpg", "accessibilityText": "Evo Center截图5：Beta3.0插件设置、反馈入口与开发者署名", "width": 1311, "height": 2670}
+  ],
   "description": "Evo Center 是一款适用于 iOS 16.0–16.6 和 iOS 17.0–17.4 的控制中心自定义插件。在熟悉的系统交互基础上，提供更灵活的模块尺寸、更便捷的常用控制，以及可自由调整的外观。\n\nBeta3.0 新增控制中心分页、5列显示与整体缩放，支持开关类模块启用后的图标颜色自定义，并可将HomeKit设备直接添加至控制中心。连接与Focus模块新增布局和图标排序，快捷指令支持双指令组合，播放控制支持背景着色，另有8个透明空白模块帮助实现更多布局。\n\n从布局到操作，让控制中心更适合你的使用习惯。",
   "features": [
     ["分页与自由布局", "将常用模块分成多个页面，左右或上下翻页。搭配5列显示、整体缩放与多种模块尺寸，让控制中心按你的习惯排列。"],
@@ -20,8 +27,7 @@
   "upgradeNote": "升级保留现有设置，无需重新添加模块。已看过Beta3.0欢迎介绍的用户不会再次自动弹出；首次安装Beta3.0的用户进入控制中心添加页时仍会展示一次，之后可在控制中心自定义底部手动重新查看。",
   "changelog": [
     "修复部分设备因缺少arm64架构导致Evo Center设置页无法加载的问题。",
-    "Rootless和RootHide安装包补齐arm64与arm64e双架构，覆盖主插件、设置页及模块组件。",
-    "保留现有功能与用户设置，无需重新添加模块；已看过Beta3.0欢迎介绍的用户不会再次自动弹出。"
+    "Rootless和RootHide安装包补齐arm64与arm64e双架构，覆盖主插件、设置页及模块组件。"
   ],
   "previousChangelogs": [
     {
