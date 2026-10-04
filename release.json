@@ -24,7 +24,7 @@
   ],
   "feedback": "反馈 Bug 和建议：在酷安 App 搜索用户名 JAYSuen 私信，或搜索插件名称 Evo Center，找到最新帖子评论。反馈时建议注明系统版本、插件版本、复现步骤，并附截图或崩溃日志。",
   "credits": "向 ccborder16、horizontalsliders、bettercc 致敬，感谢它们在控制中心布局与美化方面的探索，为 Evo Center 的设计与实现提供了宝贵启发。",
-  "upgradeNote": "升级保留现有设置，无需重新添加模块。已看过Beta3.0欢迎介绍的用户不会再次自动弹出；首次安装Beta3.0的用户进入控制中心添加页时仍会展示一次，之后可在控制中心自定义底部手动重新查看。",
+  "upgradeNote": "",
   "changelog": [
     "修复部分设备因缺少arm64架构导致Evo Center设置页无法加载的问题。",
     "Rootless和RootHide安装包补齐arm64与arm64e双架构，覆盖主插件、设置页及模块组件。"
