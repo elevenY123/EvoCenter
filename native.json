@@ -56,7 +56,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "Beta3.0 测试版（3.0.0-beta.2）"
+          "text": "Beta3.0 测试版（3.0.0-beta.3）"
         },
         {
           "class": "DepictionTableTextView",
@@ -65,7 +65,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "升级保留现有设置。安装Beta3.0后首次进入控制中心添加页会展示新版欢迎介绍，仅自动展示一次；之后可在控制中心自定义底部手动重新查看。"
+          "markdown": "升级保留现有设置，无需重新添加模块。已看过Beta3.0欢迎介绍的用户不会再次自动弹出；首次安装Beta3.0的用户进入控制中心添加页时仍会展示一次，之后可在控制中心自定义底部手动重新查看。"
         }
       ]
     },
@@ -75,7 +75,15 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Beta3.0 更新日志"
+          "title": "Beta3.0 兼容性更新（3.0.0-beta.3）"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 修复部分设备因缺少arm64架构导致Evo Center设置页无法加载的问题。\n2. Rootless和RootHide安装包补齐arm64与arm64e双架构，覆盖主插件、设置页及模块组件。\n3. 保留现有功能与用户设置，无需重新添加模块；已看过Beta3.0欢迎介绍的用户不会再次自动弹出。"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Beta3.0 更新日志（3.0.0-beta.2）"
         },
         {
           "class": "DepictionMarkdownView",

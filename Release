@@ -7,24 +7,24 @@ Version: 1.0
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Description: JaySuen iOS jailbreak tweak repository
 Icon: https://eleveny123.github.io/CydiaIcon.png
-Date: Fri, 02 Oct 2026 15:37:14 GMT
+Date: Sun, 04 Oct 2026 05:58:19 GMT
 MD5Sum:
- 10931c3c549935a99b22c3dec3d91c47             4986 Packages
- 906df72017ee1751f81feae4f308d708             1279 Packages.gz
- c493df13cc3dead3430bc7230e5df04a             1525 Packages.bz2
- 38e8cff847aafdf5d49d28c9f2e49836             1224 Packages.xz
+ e2b1f67d1fbbc64a97ce22183166ec22             7517 Packages
+ 8ce9b5ccb4606e31ae1121c2faca1c6b             1526 Packages.gz
+ 0bb0ce3b031e2d83ed4452013301327c             1901 Packages.bz2
+ 637cb190723c54bc3bff721a15471b4d             1420 Packages.xz
 SHA1:
- acc36cda49ab728cf8e8a90d48359c42e80d6eb8             4986 Packages
- d67edb31843c581d52c3af77dbf99b8deebc0d2a             1279 Packages.gz
- eb9f936f66a2e910aacd2a332085f05697606075             1525 Packages.bz2
- 083e232e1aa59b71822eee0a5e2384dbf6d5944d             1224 Packages.xz
+ 367d51d9e98ca4d5a0714de6ce3104cf21134714             7517 Packages
+ bb400d4faca3d2e707cd94909bbe0fe16bb287fb             1526 Packages.gz
+ d5a3f8e90debc5f64d3ea6da1969df4bceb79776             1901 Packages.bz2
+ 8aef2cbcd4fd88fa9837d5445327580eee0f83cd             1420 Packages.xz
 SHA256:
- 1032fdf1bc8be7ac31d784093d55e391527ae2c2974bb0fd9c4a6a2fea6ec6f6             4986 Packages
- f9ef4e1d2e9af7df6139a8b6dd9e9d62bb55333b7e2c1496c83a402855705a3a             1279 Packages.gz
- 18fac97ed2293a2390bc95ad7a49f4365e6b929361ea75e67ce28f2ad8b1746e             1525 Packages.bz2
- 547ead22df49ae269d6479435c3d37e33033534fa6b01bbb406c0aec94075383             1224 Packages.xz
+ cc9ae9b53e6d8361f22ee6ef1bb94aa75bd77189fd9298dcb2603454dd502867             7517 Packages
+ 512262a050353deb5eaa8522b923b879b47fdd5eccf8fcec78a374ebf9c6cc7a             1526 Packages.gz
+ fdf5a385a365b62e7f565547fb7138c019686abd8c9b41f128fcab82752f98e3             1901 Packages.bz2
+ 685f108b11cc54438d2cade20f2823cb2e0dcf37ffbe5d8d8148ea7cc2057938             1420 Packages.xz
 SHA512:
- d844c795cad551bd1b941c4eadcb8f96a2c11fdb8475c0604011db974c75f26f8e6b35c32ccb09b4e5182f0519a7fa58a221b3083016b52860805dcd3e90c967             4986 Packages
- d22540400cd03fc9d325302a4e6c28697f153fc04251b0cde3ca1829d078ff04d0f6add8bd6921e5daeb4e66bd7725fa0b552af1c5d99dc615b11858a9391b85             1279 Packages.gz
- aea3ac67ee1d4a3b128b4f4a6093521ce0199b57485c1fbbc286537b7015d8673cc4112dcc9517d71da3b6d023afd60e56453a6331397d321a87b9581db0b06b             1525 Packages.bz2
- e86b0538fc7d96c6c5464524d0855775fd3c526f8ee2522dcb4cb41bb9296307a50c2abf6932b9a5c98fbea1013dac8b1da94f82684bae9f7856fb02bdd1836b             1224 Packages.xz
+ ff69a525d978a9de05983f66442aa36b92e0f028f69ae1c24b8efb1c9bab1a9000c3e84e2a0afe924c25f435cdb5044d47af5b14db53f2fb2c58b7af54814e37             7517 Packages
+ dea7e0d9489241ffd268cdf9385d71d6450b85a0a800048ce779328e8316afa83662cf21e649352804c89836518d1a11091361aa5bc3e6ed5520ccb2afde2846             1526 Packages.gz
+ aeb1311ffbccbef709d71b4b628277ae76f79f55ec61239ca3a8e83728187fb5d71f995187163c576003085d11ff3f40909144d2ef077b6267d6c159484f4ffd             1901 Packages.bz2
+ d64fa1da0a2cb6bdd96aa10bcdbaaac3c98f907fc6f48a6b8482c530900638d8b9db1676018176263561e995d18d0afcfbce9838600dcbce07de42c85273a833             1420 Packages.xz
