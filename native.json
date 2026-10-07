@@ -78,17 +78,14 @@
           "title": "兼容与安装"
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "支持系统"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "iOS 16.0 - 16.6  \niOS 17.0 - 17.4"
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 16.0–17.4"
         },
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "Beta3.0测试版"
+          "text": "Beta3.1测试版"
         },
         {
           "class": "DepictionTableTextView",
@@ -101,6 +98,14 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Beta3.1修复性更新"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 修复已添加模块更换尺寸时在控制中心出现的错位问题。现切换尺寸可以实时更新，不需要移除再添加或注销设备。\n2. 修复“连接”模块的蓝牙按钮在2×2（现代）尺寸中的图标显示错误。\n3. 修复专注模式独立模块展开视图出现两个底板的问题。\n4. 修复iOS 17“静音”模块开启自定义着色后的显示问题。\n5. 修复“自定义图标着色”功能的选色页面“光谱”无法拖动选色的问题。\n6. 修复开启缩放后，模块从展开视图返回紧凑视图动画卡顿的问题。\n7. 修复点击“深色模式”模块会导致控制中心整体上移的问题。\n8. 修复了arm64设备添加模块导致设置App闪退的问题。\n9. 修复了部分模块的展开视图中图标和模块名称标题不居中的问题。\n10. 优化了“无线局域网”和“蓝牙”两个模块的实现链路。\n11. 优化了“麦克风模式”和“视频效果”两个模块的显示问题。\n12. 略微优化了上下翻页的手感。"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "Beta3.0兼容性更新"
