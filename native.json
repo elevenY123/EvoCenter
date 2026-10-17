@@ -85,7 +85,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "Beta3.1测试版"
+          "text": "Beta4.0测试版"
         },
         {
           "class": "DepictionTableTextView",
@@ -98,6 +98,14 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Beta4.0功能性更新"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 顶部操作按钮功能回归。\n2. 新增“播放控制”模块布局自定义。\n3. 新增分页点显示。\n4. 新增顶部模糊层渐进模糊效果。\n5. 新增分页模式下单页 9 行显示。\n6. 修复“播放控制”模块 4×2 尺寸卡死的问题。\n7. 修复“深色模式”模块点击导致控制中心上移的问题。\n8. 优化了上下翻页模式的顶部模糊层的显示时机。"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "Beta3.1修复性更新"
