@@ -1,9 +1,9 @@
 {
   "package": "com.jaysuen.evocenter",
   "name": "Evo Center",
-  "version": "4.0.0-beta.2",
+  "version": "4.0.0-beta.3",
   "releaseLabel": "Beta4.0测试版",
-  "changelogTitle": "Beta4.0功能性更新",
+  "changelogTitle": "Beta4.0修复性更新",
   "authors": [
     "chatgpt5.6sol",
     "chatgpt6.1sol",
@@ -71,16 +71,22 @@
   "credits": "向 ccborder16、horizontalsliders、bettercc 致敬，感谢它们在控制中心布局与美化方面的探索，为 Evo Center 的设计与实现提供了宝贵启发。",
   "upgradeNote": "",
   "changelog": [
-    "顶部操作按钮功能回归。",
-    "新增“播放控制”模块布局自定义。",
-    "新增分页点显示。",
-    "新增顶部模糊层渐进模糊效果。",
-    "新增分页模式下单页 9 行显示。",
-    "修复“播放控制”模块 4×2 尺寸卡死的问题。",
-    "修复“深色模式”模块点击导致控制中心上移的问题。",
-    "优化了上下翻页模式的顶部模糊层的显示时机。"
+    "修复顶部按钮点击没有反应的bug"
   ],
   "previousChangelogs": [
+    {
+      "title": "Beta4.0功能性更新",
+      "items": [
+        "顶部操作按钮功能回归。",
+        "新增“播放控制”模块布局自定义。",
+        "新增分页点显示。",
+        "新增顶部模糊层渐进模糊效果。",
+        "新增分页模式下单页 9 行显示。",
+        "修复“播放控制”模块 4×2 尺寸卡死的问题。",
+        "修复“深色模式”模块点击导致控制中心上移的问题。",
+        "优化了上下翻页模式的顶部模糊层的显示时机。"
+      ]
+    },
     {
       "title": "Beta3.1修复性更新",
       "items": [

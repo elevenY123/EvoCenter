@@ -100,6 +100,14 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "Beta4.0修复性更新"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 修复顶部按钮点击没有反应的bug"
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "Beta4.0功能性更新"
         },
         {

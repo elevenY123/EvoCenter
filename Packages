@@ -310,3 +310,55 @@ Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 Name: Evo Center
 SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.2
 
+Package: com.jaysuen.evocenter
+Version: 4.0.0-beta.3
+Architecture: iphoneos-arm64e
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 27716
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/EvoCenter_4.0.0-beta.3_roothide.deb
+Size: 1452036
+MD5sum: a7428e109290e76424713fd314656ea2
+SHA1: 5084dcff458837b726da1376f0de2bcf20dc6240
+SHA256: 5b1bd24b13bb2a0cadc3398870d9f8f4b1ce0a36d74d2beef2cf18e993e20e30
+Section: Tweaks
+Homepage: https://eleveny123.github.io/EvoCenter/
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Depiction: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Name: Evo Center
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.3
+
+Package: com.jaysuen.evocenter
+Version: 4.0.0-beta.3
+Architecture: iphoneos-arm64
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 27220
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/EvoCenter_4.0.0-beta.3_rootless.deb
+Size: 1445056
+MD5sum: e7c8fb1f7d01114d48bc88cd43946098
+SHA1: 8cc32fa9c6b8a03c04406e51e633b75418238d1e
+SHA256: 60bd7fb97683678e68299b27c3b5af056aec54c776f2eb5eec9cab825d1fcad0
+Section: Tweaks
+Homepage: https://eleveny123.github.io/EvoCenter/
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Depiction: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Name: Evo Center
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.3
+
