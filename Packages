@@ -373,7 +373,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.
 Homepage: https://eleveny123.github.io/IslandBlur/
 Icon: https://eleveny123.github.io/IslandBlur/assets/icon.png
 Depiction: https://eleveny123.github.io/IslandBlur/
-SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1
+SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1&r=screenshots-png-1
 Conflicts: dev.islandblur.arm64
 Replaces: dev.islandblur.arm64
 Architecture: iphoneos-arm64e
@@ -397,7 +397,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.
 Homepage: https://eleveny123.github.io/IslandBlur/
 Icon: https://eleveny123.github.io/IslandBlur/assets/icon.png
 Depiction: https://eleveny123.github.io/IslandBlur/
-SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1
+SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1&r=screenshots-png-1
 Conflicts: dev.islandblur.arm64
 Replaces: dev.islandblur.arm64
 Architecture: iphoneos-arm64
@@ -421,7 +421,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.
 Homepage: https://eleveny123.github.io/IslandBlur/
 Icon: https://eleveny123.github.io/IslandBlur/assets/icon.png
 Depiction: https://eleveny123.github.io/IslandBlur/
-SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1
+SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1&r=screenshots-png-1
 Conflicts: dev.islandglass.tweak
 Replaces: dev.islandglass.tweak
 Architecture: iphoneos-arm64e
@@ -445,7 +445,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.
 Homepage: https://eleveny123.github.io/IslandBlur/
 Icon: https://eleveny123.github.io/IslandBlur/assets/icon.png
 Depiction: https://eleveny123.github.io/IslandBlur/
-SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1
+SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1&r=screenshots-png-1
 Conflicts: dev.islandglass.tweak
 Replaces: dev.islandglass.tweak
 Architecture: iphoneos-arm64

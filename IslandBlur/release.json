@@ -28,40 +28,40 @@
   ],
   "screenshots": [
     {
-      "path": "assets/screenshots/1.jpg",
+      "path": "assets/screenshots/1.png",
       "accessibilityText": "IslandBlur 插件截图 1",
-      "width": 640,
-      "height": 1303
+      "width": 1311,
+      "height": 2670
     },
     {
-      "path": "assets/screenshots/2.jpg",
+      "path": "assets/screenshots/2.png",
       "accessibilityText": "IslandBlur 插件截图 2",
-      "width": 640,
-      "height": 1303
+      "width": 1311,
+      "height": 2670
     },
     {
-      "path": "assets/screenshots/3.jpg",
+      "path": "assets/screenshots/3.png",
       "accessibilityText": "IslandBlur 插件截图 3",
-      "width": 640,
-      "height": 1303
+      "width": 1311,
+      "height": 2670
     },
     {
-      "path": "assets/screenshots/4.jpg",
+      "path": "assets/screenshots/4.png",
       "accessibilityText": "IslandBlur 插件截图 4",
-      "width": 640,
-      "height": 1303
+      "width": 1311,
+      "height": 2670
     },
     {
-      "path": "assets/screenshots/5.jpg",
+      "path": "assets/screenshots/5.png",
       "accessibilityText": "IslandBlur 插件截图 5",
-      "width": 640,
-      "height": 1303
+      "width": 1311,
+      "height": 2670
     },
     {
-      "path": "assets/screenshots/6.jpg",
+      "path": "assets/screenshots/6.png",
       "accessibilityText": "IslandBlur 插件截图 6",
-      "width": 640,
-      "height": 1303
+      "width": 1311,
+      "height": 2670
     }
   ],
   "variants": [
@@ -75,5 +75,6 @@
       "package": "dev.islandblur.arm64",
       "cpu": "arm64"
     }
-  ]
+  ],
+  "depictionRevision": "screenshots-png-1"
 }
