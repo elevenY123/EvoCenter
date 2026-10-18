@@ -8,6 +8,18 @@
       "title": "Evo Center",
       "package": "com.jaysuen.evocenter",
       "hideShadow": false
+    },
+    {
+      "url": "https://eleveny123.github.io/IslandBlur/assets/banner.png",
+      "title": "IslandBlur",
+      "package": "dev.islandglass.tweak",
+      "hideShadow": false
+    },
+    {
+      "url": "https://eleveny123.github.io/IslandBlur/assets/banner.png",
+      "title": "IslandBlur (Legacy)",
+      "package": "dev.islandblur.arm64",
+      "hideShadow": false
     }
   ]
 }

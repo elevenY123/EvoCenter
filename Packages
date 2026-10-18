@@ -362,3 +362,99 @@ Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 Name: Evo Center
 SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.3
 
+Package: dev.islandglass.tweak
+Name: IslandBlur
+Description: 为你的灵动岛提供更现代、更轻量化的显示效果。
+ IslandBlur 可调整灵动岛实时活动的底板样式，提供纯黑、黑色渐变和完全透明三种选择。适用于 iOS 16和iOS 17，设备需已支持或启用原生灵动岛。
+Maintainer: JaySuen
+Author: ChatGPT 6.1（sol）, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.0), cy+cpu.arm64e
+Homepage: https://eleveny123.github.io/IslandBlur/
+Icon: https://eleveny123.github.io/IslandBlur/assets/icon.png
+Depiction: https://eleveny123.github.io/IslandBlur/
+SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1
+Conflicts: dev.islandblur.arm64
+Replaces: dev.islandblur.arm64
+Architecture: iphoneos-arm64e
+Version: 1.0.0~beta1
+Installed-Size: 380
+Filename: debs/IslandBlur_1.0.0-beta1_arm64e_roothide.deb
+Size: 104092
+MD5sum: 1c53491ace525c7b8e9f404590cff776
+SHA1: 7accd759304cc42017d6bb620dde793ebdba3ad9
+SHA256: 46611c14fd1851a898c3f0aa05a32be1ca696137c08c049cbb32489f11d861e8
+SHA512: b23360a20119ffebbd553dc37e0307b267edea4616c4760db3ba4c1698382b329685d975e74297d237897ba115191b913ca81cd582f30031599eef4a3f798dc8
+
+Package: dev.islandglass.tweak
+Name: IslandBlur
+Description: 为你的灵动岛提供更现代、更轻量化的显示效果。
+ IslandBlur 可调整灵动岛实时活动的底板样式，提供纯黑、黑色渐变和完全透明三种选择。适用于 iOS 16和iOS 17，设备需已支持或启用原生灵动岛。
+Maintainer: JaySuen
+Author: ChatGPT 6.1（sol）, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.0), cy+cpu.arm64e
+Homepage: https://eleveny123.github.io/IslandBlur/
+Icon: https://eleveny123.github.io/IslandBlur/assets/icon.png
+Depiction: https://eleveny123.github.io/IslandBlur/
+SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1
+Conflicts: dev.islandblur.arm64
+Replaces: dev.islandblur.arm64
+Architecture: iphoneos-arm64
+Version: 1.0.0~beta1
+Installed-Size: 380
+Filename: debs/IslandBlur_1.0.0-beta1_arm64e_rootless.deb
+Size: 100854
+MD5sum: 5851261a966ea6806c322b93ef8d6764
+SHA1: 55ec3e55164297399a56dfdacbae65e4816795e1
+SHA256: 739d98de1fe7ad079a3468087cd3c3ea95b1efa13a2599c81ce07915cbc222a4
+SHA512: 75848bed4c228eb0804ce0a5a8b7dd68c650ba6a7f25689c0c397fefa2b21fa24a24d7ea8c96191e5c84ee8e3133ec16ec97df0d7a10622ab8d0ae02dc77964d
+
+Package: dev.islandblur.arm64
+Name: IslandBlur (Legacy)
+Description: 为你的灵动岛提供更现代、更轻量化的显示效果。
+ IslandBlur 可调整灵动岛实时活动的底板样式，提供纯黑、黑色渐变和完全透明三种选择。适用于 iOS 16和iOS 17，设备需已支持或启用原生灵动岛。
+Maintainer: JaySuen
+Author: ChatGPT 6.1（sol）, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.0), cy+cpu.arm64
+Homepage: https://eleveny123.github.io/IslandBlur/
+Icon: https://eleveny123.github.io/IslandBlur/assets/icon.png
+Depiction: https://eleveny123.github.io/IslandBlur/
+SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1
+Conflicts: dev.islandglass.tweak
+Replaces: dev.islandglass.tweak
+Architecture: iphoneos-arm64e
+Version: 1.0.0~beta1
+Installed-Size: 380
+Filename: debs/IslandBlur_1.0.0-beta1_arm64_roothide.deb
+Size: 104724
+MD5sum: 467369136c47223d44250b536dba19bd
+SHA1: d43c86822df20da6d058a69a6a7b6a7bf81f44d7
+SHA256: 0273e9e9f18c2a85618f765b828127882fb9292ab2639f141f86971a744e12d0
+SHA512: 383119cdb0d129b5af8c87ad6310d66474af05984e11a2e040759c09fcb74820b1ce975e7fab7542354cc05513f1c1cb29692d963a64d62f3f104c54c2ef596a
+
+Package: dev.islandblur.arm64
+Name: IslandBlur (Legacy)
+Description: 为你的灵动岛提供更现代、更轻量化的显示效果。
+ IslandBlur 可调整灵动岛实时活动的底板样式，提供纯黑、黑色渐变和完全透明三种选择。适用于 iOS 16和iOS 17，设备需已支持或启用原生灵动岛。
+Maintainer: JaySuen
+Author: ChatGPT 6.1（sol）, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.0), cy+cpu.arm64
+Homepage: https://eleveny123.github.io/IslandBlur/
+Icon: https://eleveny123.github.io/IslandBlur/assets/icon.png
+Depiction: https://eleveny123.github.io/IslandBlur/
+SileoDepiction: https://eleveny123.github.io/IslandBlur/native.json?v=1.0.0~beta1
+Conflicts: dev.islandglass.tweak
+Replaces: dev.islandglass.tweak
+Architecture: iphoneos-arm64
+Version: 1.0.0~beta1
+Installed-Size: 380
+Filename: debs/IslandBlur_1.0.0-beta1_arm64_rootless.deb
+Size: 101482
+MD5sum: ead4bf12e63263915435108ff525b2cf
+SHA1: d5e8a6fea454ea7d2cfd4d89ebf8feb5e666ed8b
+SHA256: 0cfe31229a57690ae848722fbd470b80d382bb24d7ec40cf97c2e2c74836ad43
+SHA512: 52ba299cb3b0e88b4a9f53667712a670829e46e5b8d15f9ed0415e41e01fcc7859051489eba54e3e83a922cf0d5357c84c54d225ac6dc1c78367127db53ec29c
+

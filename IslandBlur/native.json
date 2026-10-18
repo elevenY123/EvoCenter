@@ -1,0 +1,112 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://eleveny123.github.io/IslandBlur/assets/banner.png",
+  "tintColor": "#007AFF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "介绍",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "为你的灵动岛提供更现代、更轻量化的显示效果。"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "插件截图"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{206, 420}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://eleveny123.github.io/IslandBlur/assets/screenshots/1.jpg",
+              "accessibilityText": "IslandBlur 插件截图 1"
+            },
+            {
+              "url": "https://eleveny123.github.io/IslandBlur/assets/screenshots/2.jpg",
+              "accessibilityText": "IslandBlur 插件截图 2"
+            },
+            {
+              "url": "https://eleveny123.github.io/IslandBlur/assets/screenshots/3.jpg",
+              "accessibilityText": "IslandBlur 插件截图 3"
+            },
+            {
+              "url": "https://eleveny123.github.io/IslandBlur/assets/screenshots/4.jpg",
+              "accessibilityText": "IslandBlur 插件截图 4"
+            },
+            {
+              "url": "https://eleveny123.github.io/IslandBlur/assets/screenshots/5.jpg",
+              "accessibilityText": "IslandBlur 插件截图 5"
+            },
+            {
+              "url": "https://eleveny123.github.io/IslandBlur/assets/screenshots/6.jpg",
+              "accessibilityText": "IslandBlur 插件截图 6"
+            }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "开发者"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- ChatGPT 6.1（sol）\n- JaySuen"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "反馈与建议"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "反馈 Bug 和建议：在酷安 App 搜索用户名 JAYSuen 私信。反馈时建议注明系统版本、插件版本、复现步骤，并附截图或崩溃日志。"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "打开酷安官网",
+          "action": "https://www.coolapk.com/",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "兼容与安装"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 16–17"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "Beta 1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "分类",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "支持无根与隐根越狱。设备需已支持或启用原生灵动岛；本插件不负责开启灵动岛。已在 iOS 16.5 的 iPhone 14 Pro，以及通过 DynamicCow 2.0 启用灵动岛的 iPadOS 17.0 iPad Pro 上验证。"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "beta1.0更新"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 新增灵动岛实时活动展开视图黑色透明过渡渐变\n2. 新增将黑色底板完全移除变成高斯模糊底板"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark">
+<meta name="description" content="为你的灵动岛提供更现代、更轻量化的显示效果。"><title>IslandBlur</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:16px/1.7 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;background:Canvas;color:CanvasText}
+main{max-width:820px;margin:auto;padding:24px}.banner{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:20px}
+.brand{display:flex;gap:18px;align-items:center;margin:20px 0}.icon{width:72px;height:72px;border-radius:18px}
+h1{margin:0;font-size:28px}h2{font-size:22px;margin:0 0 12px}p{margin:0 0 16px}
+article{border:1px solid #8884;border-radius:18px;padding:18px 22px;margin:20px 0}a{color:#007aff}
+li{margin-bottom:12px}.byline{opacity:.7;margin:0;font-size:14px;overflow-wrap:anywhere}footer{font-size:14px;opacity:.7;overflow-wrap:anywhere}
+.tabs{display:flex;gap:16px;border-bottom:1px solid #8884;margin:12px 0 24px}
+.tabs button{flex:1;border:0;background:transparent;color:inherit;font:inherit;font-weight:600;padding:12px 4px;border-bottom:3px solid transparent;cursor:pointer}
+.tabs button[aria-selected="true"]{color:#007aff;border-bottom-color:#007aff}[hidden]{display:none!important}
+.gallery{margin:24px 0}.screenshots{display:flex;gap:16px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding:2px;padding:2px 2px 12px}
+.screenshot{flex:0 0 auto;scroll-snap-align:start;border-radius:12px;overflow:hidden;line-height:0}
+.screenshot img{display:block;width:auto;height:420px;max-height:65vh;object-fit:contain}
+dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px 20px;margin:0 0 20px}dt{opacity:.7}dd{margin:0;text-align:right;overflow-wrap:anywhere}
+@media(max-width:480px){main{padding:16px}article{padding:16px}.brand{gap:12px}h1{font-size:24px}.icon{width:64px;height:64px}}
+</style></head><body>
+<main><img class="banner" src="assets/banner.png" alt="IslandBlur 灵动岛展开视图样式">
+<div class="brand"><img class="icon" src="assets/icon.png" alt="IslandBlur 图标"><div><h1>IslandBlur</h1><p class="byline">ChatGPT 6.1（sol） · JaySuen</p></div></div>
+<nav class="tabs" role="tablist" aria-label="软件包详情">
+<button id="introduction-tab" type="button" role="tab" aria-selected="true" aria-controls="introduction">介绍</button>
+<button id="changelog-tab" type="button" role="tab" aria-selected="false" aria-controls="changelog" tabindex="-1">更新日志</button>
+</nav>
+<section id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
+<p class="summary">为你的灵动岛提供更现代、更轻量化的显示效果。</p><section class="gallery" aria-labelledby="screenshots-title"><h2 id="screenshots-title">插件截图</h2><div class="screenshots" role="region" aria-label="插件截图，可左右滑动查看" tabindex="0"><a class="screenshot" href="assets/screenshots/1.jpg"><img src="assets/screenshots/1.jpg" alt="IslandBlur 插件截图 1" width="640" height="1303" loading="lazy" decoding="async"></a><a class="screenshot" href="assets/screenshots/2.jpg"><img src="assets/screenshots/2.jpg" alt="IslandBlur 插件截图 2" width="640" height="1303" loading="lazy" decoding="async"></a><a class="screenshot" href="assets/screenshots/3.jpg"><img src="assets/screenshots/3.jpg" alt="IslandBlur 插件截图 3" width="640" height="1303" loading="lazy" decoding="async"></a><a class="screenshot" href="assets/screenshots/4.jpg"><img src="assets/screenshots/4.jpg" alt="IslandBlur 插件截图 4" width="640" height="1303" loading="lazy" decoding="async"></a><a class="screenshot" href="assets/screenshots/5.jpg"><img src="assets/screenshots/5.jpg" alt="IslandBlur 插件截图 5" width="640" height="1303" loading="lazy" decoding="async"></a><a class="screenshot" href="assets/screenshots/6.jpg"><img src="assets/screenshots/6.jpg" alt="IslandBlur 插件截图 6" width="640" height="1303" loading="lazy" decoding="async"></a></div></section>
+<article><h2>开发者</h2><ul><li>ChatGPT 6.1（sol）</li><li>JaySuen</li></ul></article>
+<article><h2>反馈与建议</h2><p>反馈 Bug 和建议：在酷安 App 搜索用户名 JAYSuen 私信。反馈时建议注明系统版本、插件版本、复现步骤，并附截图或崩溃日志。</p><a href="https://www.coolapk.com/">打开酷安官网</a></article>
+
+<article><h2>兼容与安装</h2><dl><dt>支持系统</dt><dd>iOS 16–17</dd><dt>版本</dt><dd>Beta 1.0</dd><dt>分类</dt><dd>Tweaks</dd></dl><p>支持无根与隐根越狱。设备需已支持或启用原生灵动岛；本插件不负责开启灵动岛。已在 iOS 16.5 的 iPhone 14 Pro，以及通过 DynamicCow 2.0 启用灵动岛的 iPadOS 17.0 iPad Pro 上验证。</p></article>
+</section>
+<section id="changelog" role="tabpanel" aria-labelledby="changelog-tab" hidden><article><h2>beta1.0更新</h2><ol><li>新增灵动岛实时活动展开视图黑色透明过渡渐变</li><li>新增将黑色底板完全移除变成高斯模糊底板</li></ol></article></section>
+<footer>IslandBlur · Beta 1.0</footer></main>
+<script>
+const tabs = [...document.querySelectorAll('[role="tab"]')];
+function selectTab(selected) {
+  tabs.forEach(tab => {
+    const active = tab === selected;
+    tab.setAttribute('aria-selected', String(active));
+    tab.tabIndex = active ? 0 : -1;
+    document.getElementById(tab.getAttribute('aria-controls')).hidden = !active;
+  });
+}
+tabs.forEach((tab, index) => {
+  tab.addEventListener('click', () => selectTab(tab));
+  tab.addEventListener('keydown', event => {
+    let target;
+    if (event.key === 'ArrowRight') target = (index + 1) % tabs.length;
+    else if (event.key === 'ArrowLeft') target = (index + tabs.length - 1) % tabs.length;
+    else if (event.key === 'Home') target = 0;
+    else if (event.key === 'End') target = tabs.length - 1;
+    else return;
+    event.preventDefault(); selectTab(tabs[target]); tabs[target].focus();
+  });
+});
+</script></body></html>

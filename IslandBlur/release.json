@@ -1,0 +1,79 @@
+{
+  "name": "IslandBlur",
+  "package": "dev.islandglass.tweak",
+  "version": "1.0.0~beta1",
+  "releaseLabel": "Beta 1.0",
+  "authors": [
+    "ChatGPT 6.1（sol）",
+    "JaySuen"
+  ],
+  "developers": [
+    "ChatGPT 6.1（sol）",
+    "JaySuen"
+  ],
+  "section": "Tweaks",
+  "tintColor": "#007AFF",
+  "summary": "为你的灵动岛提供更现代、更轻量化的显示效果。",
+  "offlineDescription": "IslandBlur 可调整灵动岛实时活动的底板样式，提供纯黑、黑色渐变和完全透明三种选择。适用于 iOS 16和iOS 17，设备需已支持或启用原生灵动岛。",
+  "feedback": "反馈 Bug 和建议：在酷安 App 搜索用户名 JAYSuen 私信。反馈时建议注明系统版本、插件版本、复现步骤，并附截图或崩溃日志。",
+  "credits": "",
+  "supportedOS": [
+    "iOS 16–17"
+  ],
+  "upgradeNote": "支持无根与隐根越狱。设备需已支持或启用原生灵动岛；本插件不负责开启灵动岛。已在 iOS 16.5 的 iPhone 14 Pro，以及通过 DynamicCow 2.0 启用灵动岛的 iPadOS 17.0 iPad Pro 上验证。",
+  "changelogTitle": "beta1.0更新",
+  "changelog": [
+    "新增灵动岛实时活动展开视图黑色透明过渡渐变",
+    "新增将黑色底板完全移除变成高斯模糊底板"
+  ],
+  "screenshots": [
+    {
+      "path": "assets/screenshots/1.jpg",
+      "accessibilityText": "IslandBlur 插件截图 1",
+      "width": 640,
+      "height": 1303
+    },
+    {
+      "path": "assets/screenshots/2.jpg",
+      "accessibilityText": "IslandBlur 插件截图 2",
+      "width": 640,
+      "height": 1303
+    },
+    {
+      "path": "assets/screenshots/3.jpg",
+      "accessibilityText": "IslandBlur 插件截图 3",
+      "width": 640,
+      "height": 1303
+    },
+    {
+      "path": "assets/screenshots/4.jpg",
+      "accessibilityText": "IslandBlur 插件截图 4",
+      "width": 640,
+      "height": 1303
+    },
+    {
+      "path": "assets/screenshots/5.jpg",
+      "accessibilityText": "IslandBlur 插件截图 5",
+      "width": 640,
+      "height": 1303
+    },
+    {
+      "path": "assets/screenshots/6.jpg",
+      "accessibilityText": "IslandBlur 插件截图 6",
+      "width": 640,
+      "height": 1303
+    }
+  ],
+  "variants": [
+    {
+      "name": "IslandBlur",
+      "package": "dev.islandglass.tweak",
+      "cpu": "arm64e"
+    },
+    {
+      "name": "IslandBlur (Legacy)",
+      "package": "dev.islandblur.arm64",
+      "cpu": "arm64"
+    }
+  ]
+}
