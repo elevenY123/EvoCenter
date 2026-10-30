@@ -3,7 +3,7 @@
   "name": "Evo Center",
   "version": "4.1.0-beta.1",
   "releaseLabel": "Beta4.1测试版",
-  "changelogTitle": "Beta4.1更新日志",
+  "changelogTitle": "Beta4.1修复性更新",
   "authors": [
     "chatgpt5.6sol",
     "chatgpt6.1sol",
@@ -19,7 +19,7 @@
   "supportedOS": [
     "iOS 16.0–17.4"
   ],
-  "summary": "为旧系统带来类似ios18的现代化控制中心体验。",
+  "summary": "为旧系统带来类似ios18的现代化控制中心体验。arm64e设备专用，arm64设备请下载legacy版本。",
   "screenshots": [
     {
       "path": "assets/screenshots/1.jpg",
@@ -69,7 +69,7 @@
   ],
   "feedback": "反馈 Bug 和建议：在酷安 App 搜索用户名 JAYSuen 私信，或搜索插件名称 Evo Center，找到最新帖子评论。反馈时建议注明系统版本、插件版本、复现步骤，并附截图或崩溃日志。",
   "credits": "向 ccborder16、horizontalsliders、bettercc 致敬，感谢它们在控制中心布局与美化方面的探索，为 Evo Center 的设计与实现提供了宝贵启发。",
-  "upgradeNote": "本版按 arm64／arm64e 拆分安装包。arm64 设备首次升级请选择 Evo Center（Legacy）；arm64e 设备沿用 Evo Center。之后可沿各自主包正常更新。",
+  "upgradeNote": "",
   "changelog": [
     "修复电源按钮的展开菜单功能失效问题",
     "修复打开“巨魔nfc”app卡死的问题",
@@ -162,5 +162,7 @@
         "优化了模块圆角实现方式。"
       ]
     }
-  ]
+  ],
+  "legacySummary": "为旧系统带来类似ios18的现代化控制中心体验。arm64设备专用。",
+  "legacyPackage": "com.jaysuen.evocenter.arm64"
 }

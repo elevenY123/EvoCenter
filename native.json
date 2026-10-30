@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "为旧系统带来类似ios18的现代化控制中心体验。"
+          "markdown": "为旧系统带来类似ios18的现代化控制中心体验。arm64e设备专用，arm64设备请下载legacy版本。"
         },
         {
           "class": "DepictionHeaderView",
@@ -91,10 +91,6 @@
           "class": "DepictionTableTextView",
           "title": "分类",
           "text": "Tweaks"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "本版按 arm64／arm64e 拆分安装包。arm64 设备首次升级请选择 Evo Center（Legacy）；arm64e 设备沿用 Evo Center。之后可沿各自主包正常更新。"
         }
       ]
     },
@@ -104,7 +100,7 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Beta4.1更新日志"
+          "title": "Beta4.1修复性更新"
         },
         {
           "class": "DepictionMarkdownView",

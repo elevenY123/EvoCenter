@@ -460,7 +460,7 @@ SHA512: 52ba299cb3b0e88b4a9f53667712a670829e46e5b8d15f9ed0415e41e01fcc7859051489
 
 Package: com.jaysuen.evocenter.arm64
 Name: Evo Center（Legacy）
-Description: 为旧系统带来类似ios18的现代化控制中心体验。
+Description: 为旧系统带来类似ios18的现代化控制中心体验。arm64设备专用。
  调节模块尺寸、自定义圆角大小和控制中心背景透明度。
  支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
  反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
@@ -471,8 +471,8 @@ Section: Tweaks
 Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, cy+cpu.arm64
 Homepage: https://eleveny123.github.io/EvoCenter/
 Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
-Depiction: https://eleveny123.github.io/EvoCenter/
-SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.1.0-beta.1
+Depiction: https://eleveny123.github.io/EvoCenter/legacy.html
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native-legacy.json?v=4.1.0-beta.1&r=architecture-20261031
 Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter, com.jaysuen.evocenter.arm64e, cy+cpu.arm64e
 Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter, com.jaysuen.evocenter.arm64e
 Architecture: iphoneos-arm64
@@ -487,7 +487,7 @@ SHA1: 598bbf8d6ae28f5416b348987c85e7228d1e5fc2
 
 Package: com.jaysuen.evocenter
 Name: Evo Center
-Description: 为旧系统带来类似ios18的现代化控制中心体验。
+Description: 为旧系统带来类似ios18的现代化控制中心体验。arm64e设备专用，arm64设备请下载legacy版本。
  调节模块尺寸、自定义圆角大小和控制中心背景透明度。
  支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
  反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
@@ -499,7 +499,7 @@ Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, cy+cpu.arm64e
 Homepage: https://eleveny123.github.io/EvoCenter/
 Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 Depiction: https://eleveny123.github.io/EvoCenter/
-SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.1.0-beta.1
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.1.0-beta.1&r=architecture-20261031
 Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter.arm64, com.jaysuen.evocenter.arm64e
 Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter.arm64, com.jaysuen.evocenter.arm64e
 Architecture: iphoneos-arm64
@@ -513,7 +513,7 @@ SHA1: 785bd831a6a6b5c4d5e71e879fbe27d8d7f60799
 
 Package: com.jaysuen.evocenter.arm64
 Name: Evo Center（Legacy）
-Description: 为旧系统带来类似ios18的现代化控制中心体验。
+Description: 为旧系统带来类似ios18的现代化控制中心体验。arm64设备专用。
  调节模块尺寸、自定义圆角大小和控制中心背景透明度。
  支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
  反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
@@ -524,8 +524,8 @@ Section: Tweaks
 Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, cy+cpu.arm64
 Homepage: https://eleveny123.github.io/EvoCenter/
 Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
-Depiction: https://eleveny123.github.io/EvoCenter/
-SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.1.0-beta.1
+Depiction: https://eleveny123.github.io/EvoCenter/legacy.html
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native-legacy.json?v=4.1.0-beta.1&r=architecture-20261031
 Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter, com.jaysuen.evocenter.arm64e, cy+cpu.arm64e
 Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter, com.jaysuen.evocenter.arm64e
 Architecture: iphoneos-arm64e
@@ -540,7 +540,7 @@ SHA1: f0d60834b36433a1f1cf59589d2781ec500ac75a
 
 Package: com.jaysuen.evocenter
 Name: Evo Center
-Description: 为旧系统带来类似ios18的现代化控制中心体验。
+Description: 为旧系统带来类似ios18的现代化控制中心体验。arm64e设备专用，arm64设备请下载legacy版本。
  调节模块尺寸、自定义圆角大小和控制中心背景透明度。
  支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
  反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
@@ -552,7 +552,7 @@ Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, cy+cpu.arm64e
 Homepage: https://eleveny123.github.io/EvoCenter/
 Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 Depiction: https://eleveny123.github.io/EvoCenter/
-SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.1.0-beta.1
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.1.0-beta.1&r=architecture-20261031
 Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter.arm64, com.jaysuen.evocenter.arm64e
 Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter.arm64, com.jaysuen.evocenter.arm64e
 Architecture: iphoneos-arm64e
