@@ -1,9 +1,9 @@
 {
   "package": "com.jaysuen.evocenter",
   "name": "Evo Center",
-  "version": "4.0.0-beta.3",
-  "releaseLabel": "Beta4.0测试版",
-  "changelogTitle": "Beta4.0修复性更新",
+  "version": "4.1.0-beta.1",
+  "releaseLabel": "Beta4.1测试版",
+  "changelogTitle": "Beta4.1更新日志",
   "authors": [
     "chatgpt5.6sol",
     "chatgpt6.1sol",
@@ -69,11 +69,22 @@
   ],
   "feedback": "反馈 Bug 和建议：在酷安 App 搜索用户名 JAYSuen 私信，或搜索插件名称 Evo Center，找到最新帖子评论。反馈时建议注明系统版本、插件版本、复现步骤，并附截图或崩溃日志。",
   "credits": "向 ccborder16、horizontalsliders、bettercc 致敬，感谢它们在控制中心布局与美化方面的探索，为 Evo Center 的设计与实现提供了宝贵启发。",
-  "upgradeNote": "",
+  "upgradeNote": "本版按 arm64／arm64e 拆分安装包。arm64 设备首次升级请选择 Evo Center（Legacy）；arm64e 设备沿用 Evo Center。之后可沿各自主包正常更新。",
   "changelog": [
-    "修复顶部按钮点击没有反应的bug"
+    "修复电源按钮的展开菜单功能失效问题",
+    "修复打开“巨魔nfc”app卡死的问题",
+    "为“连接状态”分组下的8个模块增加了新的2x1、2x2、4x1三个新尺寸样式",
+    "优化了homekit设备部分类型模块的样式",
+    "优化了模块名称文字的显示逻辑，双行显示",
+    "优化了“音量”模块滑动卡顿的问题"
   ],
   "previousChangelogs": [
+    {
+      "title": "Beta4.0修复性更新",
+      "items": [
+        "修复顶部按钮点击没有反应的bug"
+      ]
+    },
     {
       "title": "Beta4.0功能性更新",
       "items": [

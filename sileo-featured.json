@@ -10,6 +10,12 @@
       "hideShadow": false
     },
     {
+      "url": "https://eleveny123.github.io/EvoCenter/assets/banner.png",
+      "title": "Evo Center（Legacy）",
+      "package": "com.jaysuen.evocenter.arm64",
+      "hideShadow": false
+    },
+    {
       "url": "https://eleveny123.github.io/IslandBlur/assets/banner.png",
       "title": "IslandBlur",
       "package": "dev.islandglass.tweak",
