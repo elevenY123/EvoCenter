@@ -81,7 +81,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "Beta 1.0"
+          "text": "beta2.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -91,6 +91,14 @@
         {
           "class": "DepictionMarkdownView",
           "markdown": "支持无根与隐根越狱。设备需已支持或启用原生灵动岛；本插件不负责开启灵动岛。已在 iOS 16.5 的 iPhone 14 Pro，以及通过 DynamicCow 2.0 启用灵动岛的 iPadOS 17.0 iPad Pro 上验证。"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "开源许可"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "液态玻璃光学着色器改编自 [winaviation-tweaks/liquidass](https://github.com/winaviation-tweaks/liquidass/tree/9b7c5eb813dabf7ea3afb940767930e128fca775)，遵循 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。已调整为完整卡片渲染、预模糊及透明输出；本插件免费提供，完整署名与许可随安装包附带。"
         }
       ]
     },
@@ -98,6 +106,14 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "beta2.0更新"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 新增液态玻璃效果显示，自定义液态玻璃显示效果\n2. 修复将灵动岛展开视图和设备挖孔顶边对齐\n3. 新增垂直渐变显示"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "beta1.0更新"

@@ -1,6 +1,6 @@
 # JaySuen Repo
 
-JaySuen 的 iOS 越狱插件源，当前提供 Evo Center。
+JaySuen 的 iOS 越狱插件源，当前提供 Evo Center 与 IslandBlur。
 
 - 软件源地址：`https://eleveny123.github.io/`
 - 备用地址：`https://eleveny123.github.io/EvoCenter/`

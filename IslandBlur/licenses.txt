@@ -1,0 +1,17 @@
+IslandBlur beta2.0 — Liquid optical shader attribution
+
+Source: winaviation-tweaks/liquidass (Liquid (Gl)ass)
+https://github.com/winaviation-tweaks/liquidass
+Revision: 9b7c5eb813dabf7ea3afb940767930e128fca775
+License: Creative Commons Attribution-NonCommercial 4.0 International
+https://creativecommons.org/licenses/by-nc/4.0/
+Legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Adaptation by ChatGPT 6.1 (sol) and JaySuen for IslandBlur:
+The optical shader was adapted to an Objective-C/Metal full-card renderer,
+with common backdrop capture, full-size preblur and premultiplied transparent
+output. Upstream injection code is not included. Original source and notices
+are retained in the development source. This package is distributed free of
+charge for noncommercial use under the above source license.
+
+No endorsement by the original author is implied.

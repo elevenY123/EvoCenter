@@ -1,8 +1,8 @@
 {
   "name": "IslandBlur",
   "package": "dev.islandglass.tweak",
-  "version": "1.0.0~beta1",
-  "releaseLabel": "Beta 1.0",
+  "version": "2.0.0~beta2",
+  "releaseLabel": "beta2.0",
   "authors": [
     "ChatGPT 6.1（sol）",
     "JaySuen"
@@ -14,17 +14,18 @@
   "section": "Tweaks",
   "tintColor": "#007AFF",
   "summary": "为你的灵动岛提供更现代、更轻量化的显示效果。",
-  "offlineDescription": "IslandBlur 可调整灵动岛实时活动的底板样式，提供纯黑、黑色渐变和完全透明三种选择。适用于 iOS 16和iOS 17，设备需已支持或启用原生灵动岛。",
+  "offlineDescription": "IslandBlur 可调整灵动岛实时活动的底板样式，提供扩散渐变、垂直渐变和完全透明三种选择，支持高斯模糊与液态玻璃材质及自定义效果。适用于 iOS 16 和 iOS 17，设备需已支持或启用原生灵动岛。",
   "feedback": "反馈 Bug 和建议：在酷安 App 搜索用户名 JAYSuen 私信。反馈时建议注明系统版本、插件版本、复现步骤，并附截图或崩溃日志。",
   "credits": "",
   "supportedOS": [
     "iOS 16–17"
   ],
   "upgradeNote": "支持无根与隐根越狱。设备需已支持或启用原生灵动岛；本插件不负责开启灵动岛。已在 iOS 16.5 的 iPhone 14 Pro，以及通过 DynamicCow 2.0 启用灵动岛的 iPadOS 17.0 iPad Pro 上验证。",
-  "changelogTitle": "beta1.0更新",
+  "changelogTitle": "beta2.0更新",
   "changelog": [
-    "新增灵动岛实时活动展开视图黑色透明过渡渐变",
-    "新增将黑色底板完全移除变成高斯模糊底板"
+    "新增液态玻璃效果显示，自定义液态玻璃显示效果",
+    "修复将灵动岛展开视图和设备挖孔顶边对齐",
+    "新增垂直渐变显示"
   ],
   "screenshots": [
     {
@@ -76,5 +77,15 @@
       "cpu": "arm64"
     }
   ],
-  "depictionRevision": "screenshots-png-1"
+  "depictionRevision": "beta20",
+  "previousChangelogs": [
+    {
+      "title": "beta1.0更新",
+      "items": [
+        "新增灵动岛实时活动展开视图黑色透明过渡渐变",
+        "新增将黑色底板完全移除变成高斯模糊底板"
+      ]
+    }
+  ],
+  "licenseNotice": "液态玻璃光学着色器改编自 [winaviation-tweaks/liquidass](https://github.com/winaviation-tweaks/liquidass/tree/9b7c5eb813dabf7ea3afb940767930e128fca775)，遵循 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。已调整为完整卡片渲染、预模糊及透明输出；本插件免费提供，完整署名与许可随安装包附带。"
 }
