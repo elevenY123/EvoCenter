@@ -104,6 +104,14 @@
         },
         {
           "class": "DepictionMarkdownView",
+          "markdown": "1. 修复focus模块2x1尺寸文字错位的问题"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Beta4.1修复性更新"
+        },
+        {
+          "class": "DepictionMarkdownView",
           "markdown": "1. 修复电源按钮的展开菜单功能失效问题\n2. 修复打开“巨魔nfc”app卡死的问题\n3. 为“连接状态”分组下的8个模块增加了新的2x1、2x2、4x1三个新尺寸样式\n4. 优化了homekit设备部分类型模块的样式\n5. 优化了模块名称文字的显示逻辑，双行显示\n6. 优化了“音量”模块滑动卡顿的问题"
         },
         {

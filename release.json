@@ -1,7 +1,7 @@
 {
   "package": "com.jaysuen.evocenter",
   "name": "Evo Center",
-  "version": "4.1.0-beta.1",
+  "version": "4.1.0-beta.2",
   "releaseLabel": "Beta4.1测试版",
   "changelogTitle": "Beta4.1修复性更新",
   "authors": [
@@ -71,14 +71,20 @@
   "credits": "向 ccborder16、horizontalsliders、bettercc 致敬，感谢它们在控制中心布局与美化方面的探索，为 Evo Center 的设计与实现提供了宝贵启发。",
   "upgradeNote": "",
   "changelog": [
-    "修复电源按钮的展开菜单功能失效问题",
-    "修复打开“巨魔nfc”app卡死的问题",
-    "为“连接状态”分组下的8个模块增加了新的2x1、2x2、4x1三个新尺寸样式",
-    "优化了homekit设备部分类型模块的样式",
-    "优化了模块名称文字的显示逻辑，双行显示",
-    "优化了“音量”模块滑动卡顿的问题"
+    "修复focus模块2x1尺寸文字错位的问题"
   ],
   "previousChangelogs": [
+    {
+      "title": "Beta4.1修复性更新",
+      "items": [
+        "修复电源按钮的展开菜单功能失效问题",
+        "修复打开“巨魔nfc”app卡死的问题",
+        "为“连接状态”分组下的8个模块增加了新的2x1、2x2、4x1三个新尺寸样式",
+        "优化了homekit设备部分类型模块的样式",
+        "优化了模块名称文字的显示逻辑，双行显示",
+        "优化了“音量”模块滑动卡顿的问题"
+      ]
+    },
     {
       "title": "Beta4.0修复性更新",
       "items": [
