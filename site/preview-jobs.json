@@ -1,0 +1,248 @@
+[
+  {
+    "source": "assets/icon.png",
+    "output": "site/icons/evocenter.png",
+    "width": 192,
+    "format": "png"
+  },
+  {
+    "source": "assets/screenshots/1.jpg",
+    "output": "site/previews/evocenter/1-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "assets/screenshots/1.jpg",
+    "output": "site/previews/evocenter/1-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "assets/screenshots/2.jpg",
+    "output": "site/previews/evocenter/2-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "assets/screenshots/2.jpg",
+    "output": "site/previews/evocenter/2-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "assets/screenshots/3.jpg",
+    "output": "site/previews/evocenter/3-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "assets/screenshots/3.jpg",
+    "output": "site/previews/evocenter/3-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "assets/screenshots/4.jpg",
+    "output": "site/previews/evocenter/4-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "assets/screenshots/4.jpg",
+    "output": "site/previews/evocenter/4-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "assets/screenshots/5.jpg",
+    "output": "site/previews/evocenter/5-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "assets/screenshots/5.jpg",
+    "output": "site/previews/evocenter/5-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/icon.png",
+    "output": "site/icons/artmotion.png",
+    "width": 192,
+    "format": "png"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/1.jpg",
+    "output": "site/previews/artmotion/1-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/1.jpg",
+    "output": "site/previews/artmotion/1-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/2.jpg",
+    "output": "site/previews/artmotion/2-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/2.jpg",
+    "output": "site/previews/artmotion/2-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/3.jpg",
+    "output": "site/previews/artmotion/3-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/3.jpg",
+    "output": "site/previews/artmotion/3-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/4.jpg",
+    "output": "site/previews/artmotion/4-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/4.jpg",
+    "output": "site/previews/artmotion/4-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/5.jpg",
+    "output": "site/previews/artmotion/5-1024.jpg",
+    "width": 1024,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/5.jpg",
+    "output": "site/previews/artmotion/5-1536.jpg",
+    "width": 1536,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/6.jpg",
+    "output": "site/previews/artmotion/6-1024.jpg",
+    "width": 1024,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/6.jpg",
+    "output": "site/previews/artmotion/6-1536.jpg",
+    "width": 1536,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/7.jpg",
+    "output": "site/previews/artmotion/7-1024.jpg",
+    "width": 1024,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/7.jpg",
+    "output": "site/previews/artmotion/7-1536.jpg",
+    "width": 1536,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/8.jpg",
+    "output": "site/previews/artmotion/8-1024.jpg",
+    "width": 1024,
+    "format": "jpg"
+  },
+  {
+    "source": "ArtMotion/assets/screenshots/8.jpg",
+    "output": "site/previews/artmotion/8-1536.jpg",
+    "width": 1536,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/icon.png",
+    "output": "site/icons/islandblur.png",
+    "width": 192,
+    "format": "png"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/1.png",
+    "output": "site/previews/islandblur/1-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/1.png",
+    "output": "site/previews/islandblur/1-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/2.png",
+    "output": "site/previews/islandblur/2-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/2.png",
+    "output": "site/previews/islandblur/2-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/3.png",
+    "output": "site/previews/islandblur/3-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/3.png",
+    "output": "site/previews/islandblur/3-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/4.png",
+    "output": "site/previews/islandblur/4-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/4.png",
+    "output": "site/previews/islandblur/4-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/5.png",
+    "output": "site/previews/islandblur/5-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/5.png",
+    "output": "site/previews/islandblur/5-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/6.png",
+    "output": "site/previews/islandblur/6-480.jpg",
+    "width": 480,
+    "format": "jpg"
+  },
+  {
+    "source": "IslandBlur/assets/screenshots/6.png",
+    "output": "site/previews/islandblur/6-960.jpg",
+    "width": 960,
+    "format": "jpg"
+  }
+]

@@ -16,3 +16,9 @@ JaySuen 的 iOS 越狱插件源，当前提供 Evo Center、IslandBlur 与 ArtMo
 - [ArtMotion（Legacy）](https://eleveny123.github.io/ArtMotion/legacy.html)：arm64 设备。
 - 两个版本均提供 Rootless / RootHide 安装包，每包同时支持 iOS / iPadOS 16、17。
 - 开发者：ChatGPT6.1、JaySuen。
+
+## 网站首页
+
+浏览器首页展示三个插件及实机截图，提供 Sileo、Zebra 添加软件源入口。Evo Center 的浏览器详情页已迁移至 [evocenter.html](https://eleveny123.github.io/evocenter.html)，原生 Sileo 描述文件路径保持不变。
+
+维护首页：运行 `python3 Tools/build-homepage.py`，新截图使用 `Tools/export-homepage-previews.ps1` 生成等比例缩略图。原始截图继续用于点击放大。

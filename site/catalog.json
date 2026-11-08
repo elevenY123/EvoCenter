@@ -1,0 +1,230 @@
+{
+  "source": "https://eleveny123.github.io/",
+  "apps": [
+    {
+      "id": "evocenter",
+      "name": "Evo Center",
+      "subtitle": "重新设计你的控制中心",
+      "description": "自由组合模块、调整尺寸与分页，把 HomeKit、专注模式和快捷指令放在顺手的位置。",
+      "version": "Beta4.1",
+      "os": "iOS 16.0–17.4",
+      "category": "控制中心",
+      "keywords": "control center homekit focus shortcuts 模块 自定义 分页",
+      "page": "evocenter.html",
+      "legacy": "legacy.html",
+      "iconSource": "assets/icon.png",
+      "package": "com.jaysuen.evocenter",
+      "legacyPackage": "com.jaysuen.evocenter.arm64",
+      "screenshots": [
+        {
+          "file": "assets/screenshots/1.jpg",
+          "width": 1311,
+          "height": 2670,
+          "alt": "Evo Center截图1：控制中心现代连接与Focus布局、自定义图标颜色",
+          "preview": "site/previews/evocenter/1-480.jpg",
+          "srcset": "site/previews/evocenter/1-480.jpg 480w, site/previews/evocenter/1-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "assets/screenshots/2.jpg",
+          "width": 1311,
+          "height": 2670,
+          "alt": "Evo Center截图2：HomeKit设备、温湿度与家庭控制模块",
+          "preview": "site/previews/evocenter/2-480.jpg",
+          "srcset": "site/previews/evocenter/2-480.jpg 480w, site/previews/evocenter/2-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "assets/screenshots/3.jpg",
+          "width": 1311,
+          "height": 2670,
+          "alt": "Evo Center截图3：控制中心分页与不同尺寸的播放控制布局",
+          "preview": "site/previews/evocenter/3-480.jpg",
+          "srcset": "site/previews/evocenter/3-480.jpg 480w, site/previews/evocenter/3-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "assets/screenshots/4.jpg",
+          "width": 1311,
+          "height": 2670,
+          "alt": "Evo Center截图4：整体缩放、5列显示与上下分页设置",
+          "preview": "site/previews/evocenter/4-480.jpg",
+          "srcset": "site/previews/evocenter/4-480.jpg 480w, site/previews/evocenter/4-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "assets/screenshots/5.jpg",
+          "width": 1311,
+          "height": 2670,
+          "alt": "Evo Center截图5：Beta3.0插件设置、反馈入口与开发者署名",
+          "preview": "site/previews/evocenter/5-480.jpg",
+          "srcset": "site/previews/evocenter/5-480.jpg 480w, site/previews/evocenter/5-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        }
+      ],
+      "icon": "site/icons/evocenter.png"
+    },
+    {
+      "id": "artmotion",
+      "name": "ArtMotion",
+      "subtitle": "让专辑封面融入整个屏幕",
+      "description": "音乐播放页与锁屏的沉浸式专辑封面。自然延展画面边缘，支持 Apple Music 动态封面与 iPad 布局。",
+      "version": "Beta1.0",
+      "os": "iOS / iPadOS 16–17",
+      "category": "音乐与锁屏",
+      "keywords": "music album artwork lock screen animated 动态 专辑 封面 音乐 锁屏",
+      "page": "ArtMotion/",
+      "legacy": "ArtMotion/legacy.html",
+      "iconSource": "ArtMotion/assets/icon.png",
+      "package": "com.jaysuen.artmotion",
+      "legacyPackage": "com.jaysuen.artmotion.legacy",
+      "screenshots": [
+        {
+          "file": "ArtMotion/assets/screenshots/1.jpg",
+          "width": 1311,
+          "height": 2670,
+          "alt": "ArtMotion 截图 1：iPhone 音乐播放页",
+          "preview": "site/previews/artmotion/1-480.jpg",
+          "srcset": "site/previews/artmotion/1-480.jpg 480w, site/previews/artmotion/1-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "ArtMotion/assets/screenshots/2.jpg",
+          "width": 1311,
+          "height": 2670,
+          "alt": "ArtMotion 截图 2：iPhone 音乐播放页",
+          "preview": "site/previews/artmotion/2-480.jpg",
+          "srcset": "site/previews/artmotion/2-480.jpg 480w, site/previews/artmotion/2-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "ArtMotion/assets/screenshots/3.jpg",
+          "width": 1311,
+          "height": 2670,
+          "alt": "ArtMotion 截图 3：iPhone 锁屏",
+          "preview": "site/previews/artmotion/3-480.jpg",
+          "srcset": "site/previews/artmotion/3-480.jpg 480w, site/previews/artmotion/3-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "ArtMotion/assets/screenshots/4.jpg",
+          "width": 1311,
+          "height": 2670,
+          "alt": "ArtMotion 截图 4：iPhone 锁屏",
+          "preview": "site/previews/artmotion/4-480.jpg",
+          "srcset": "site/previews/artmotion/4-480.jpg 480w, site/previews/artmotion/4-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "ArtMotion/assets/screenshots/5.jpg",
+          "width": 2928,
+          "height": 2244,
+          "alt": "ArtMotion 截图 5：iPad 横屏锁屏",
+          "preview": "site/previews/artmotion/5-1024.jpg",
+          "srcset": "site/previews/artmotion/5-1024.jpg 1024w, site/previews/artmotion/5-1536.jpg 1536w",
+          "sizes": "(max-width: 700px) 370px, (min-width: 1200px) 488px, 455px"
+        },
+        {
+          "file": "ArtMotion/assets/screenshots/6.jpg",
+          "width": 2928,
+          "height": 2244,
+          "alt": "ArtMotion 截图 6：iPad 横屏锁屏",
+          "preview": "site/previews/artmotion/6-1024.jpg",
+          "srcset": "site/previews/artmotion/6-1024.jpg 1024w, site/previews/artmotion/6-1536.jpg 1536w",
+          "sizes": "(max-width: 700px) 370px, (min-width: 1200px) 488px, 455px"
+        },
+        {
+          "file": "ArtMotion/assets/screenshots/7.jpg",
+          "width": 2928,
+          "height": 2244,
+          "alt": "ArtMotion 截图 7：iPad 横屏歌词播放页",
+          "preview": "site/previews/artmotion/7-1024.jpg",
+          "srcset": "site/previews/artmotion/7-1024.jpg 1024w, site/previews/artmotion/7-1536.jpg 1536w",
+          "sizes": "(max-width: 700px) 370px, (min-width: 1200px) 488px, 455px"
+        },
+        {
+          "file": "ArtMotion/assets/screenshots/8.jpg",
+          "width": 2928,
+          "height": 2244,
+          "alt": "ArtMotion 截图 8：iPad 横屏歌词播放页",
+          "preview": "site/previews/artmotion/8-1024.jpg",
+          "srcset": "site/previews/artmotion/8-1024.jpg 1024w, site/previews/artmotion/8-1536.jpg 1536w",
+          "sizes": "(max-width: 700px) 370px, (min-width: 1200px) 488px, 455px"
+        }
+      ],
+      "icon": "site/icons/artmotion.png"
+    },
+    {
+      "id": "islandblur",
+      "name": "IslandBlur",
+      "subtitle": "灵动岛，也可以更轻盈",
+      "description": "为灵动岛实时活动加入柔和渐变、高斯模糊与液态玻璃材质，让展开卡片更自然地融入界面。",
+      "version": "Beta2.0",
+      "os": "iOS 16–17",
+      "category": "灵动岛",
+      "keywords": "dynamic island live activities blur glass 透明 模糊 液态玻璃 实时活动",
+      "page": "IslandBlur/",
+      "legacy": "IslandBlur/legacy.html",
+      "iconSource": "IslandBlur/assets/icon.png",
+      "package": "dev.islandglass.tweak",
+      "legacyPackage": "dev.islandblur.arm64",
+      "screenshots": [
+        {
+          "file": "IslandBlur/assets/screenshots/1.png",
+          "width": 1311,
+          "height": 2670,
+          "alt": "IslandBlur 插件截图 1",
+          "preview": "site/previews/islandblur/1-480.jpg",
+          "srcset": "site/previews/islandblur/1-480.jpg 480w, site/previews/islandblur/1-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "IslandBlur/assets/screenshots/2.png",
+          "width": 1311,
+          "height": 2670,
+          "alt": "IslandBlur 插件截图 2",
+          "preview": "site/previews/islandblur/2-480.jpg",
+          "srcset": "site/previews/islandblur/2-480.jpg 480w, site/previews/islandblur/2-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "IslandBlur/assets/screenshots/3.png",
+          "width": 1311,
+          "height": 2670,
+          "alt": "IslandBlur 插件截图 3",
+          "preview": "site/previews/islandblur/3-480.jpg",
+          "srcset": "site/previews/islandblur/3-480.jpg 480w, site/previews/islandblur/3-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "IslandBlur/assets/screenshots/4.png",
+          "width": 1311,
+          "height": 2670,
+          "alt": "IslandBlur 插件截图 4",
+          "preview": "site/previews/islandblur/4-480.jpg",
+          "srcset": "site/previews/islandblur/4-480.jpg 480w, site/previews/islandblur/4-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "IslandBlur/assets/screenshots/5.png",
+          "width": 1311,
+          "height": 2670,
+          "alt": "IslandBlur 插件截图 5",
+          "preview": "site/previews/islandblur/5-480.jpg",
+          "srcset": "site/previews/islandblur/5-480.jpg 480w, site/previews/islandblur/5-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        },
+        {
+          "file": "IslandBlur/assets/screenshots/6.png",
+          "width": 1311,
+          "height": 2670,
+          "alt": "IslandBlur 插件截图 6",
+          "preview": "site/previews/islandblur/6-480.jpg",
+          "srcset": "site/previews/islandblur/6-480.jpg 480w, site/previews/islandblur/6-960.jpg 960w",
+          "sizes": "(max-width: 700px) 139px, (min-width: 1200px) 184px, 171px"
+        }
+      ],
+      "icon": "site/icons/islandblur.png"
+    }
+  ]
+}
