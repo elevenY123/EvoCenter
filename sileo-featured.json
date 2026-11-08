@@ -26,6 +26,18 @@
       "title": "IslandBlur (Legacy)",
       "package": "dev.islandblur.arm64",
       "hideShadow": false
+    },
+    {
+      "url": "https://eleveny123.github.io/ArtMotion/assets/featured.png",
+      "title": "ArtMotion",
+      "package": "com.jaysuen.artmotion",
+      "hideShadow": false
+    },
+    {
+      "url": "https://eleveny123.github.io/ArtMotion/assets/featured.png",
+      "title": "ArtMotion（Legacy）",
+      "package": "com.jaysuen.artmotion.legacy",
+      "hideShadow": false
     }
   ]
 }

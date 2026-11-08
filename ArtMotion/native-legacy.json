@@ -1,0 +1,145 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://eleveny123.github.io/ArtMotion/assets/banner.png",
+  "tintColor": "#507DA8",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "介绍",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "ArtMotion 为 iPhone 和 iPad 的音乐播放页与锁屏带来沉浸式专辑封面。\n\n- **沉浸式封面**：适配 iPhone、iPad。\n- **Apple Music 动态封面**：需要歌曲本身提供可用的动态封面。\n- **自然的锁屏体验**：展开封面时，封面全屏显示，时间缩小并移动到日期旁。"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "插件截图"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{206, 420}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/1.jpg",
+              "accessibilityText": "ArtMotion 实机截图 1：iPhone 音乐播放页"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/2.jpg",
+              "accessibilityText": "ArtMotion 实机截图 2：iPhone 音乐播放页"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/3.jpg",
+              "accessibilityText": "ArtMotion 实机截图 3：iPhone 锁屏"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/4.jpg",
+              "accessibilityText": "ArtMotion 实机截图 4：iPhone 锁屏"
+            }
+          ]
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{440, 337}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/5.jpg",
+              "accessibilityText": "ArtMotion 实机截图 5：iPad 横屏锁屏"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/6.jpg",
+              "accessibilityText": "ArtMotion 实机截图 6：iPad 横屏锁屏"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/7.jpg",
+              "accessibilityText": "ArtMotion 实机截图 7：iPad 横屏歌词播放页"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/8.jpg",
+              "accessibilityText": "ArtMotion 实机截图 8：iPad 横屏歌词播放页"
+            }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "开发者"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- ChatGPT6.1\n- JaySuen"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "反馈与建议"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "请附上设备型号、系统与越狱环境、ArtMotion 版本、复现步骤，以及截图或崩溃日志。\n\n反馈 Bug 和建议：在酷安 App 搜索用户名 JAYSuen 私信，或搜索插件名称 ArtMotion，找到最新帖子评论。"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "鸣谢"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "向 ArtFull 及作者 Ethan Whited（ETHN / nahtedetihw）致敬，感谢其在专辑封面呈现与开源方面的探索。"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "打开酷安官网",
+          "action": "https://www.coolapk.com/",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "兼容与安装"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS / iPadOS 16–17"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "越狱环境",
+          "text": "Rootless / RootHide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "设备架构",
+          "text": "arm64"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "Beta1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "分类",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "每个安装包同时支持两个系统。适用于 arm64 设备；arm64e 设备请选择 ArtMotion。\n\n已在 iPhone 14 Pro（iOS 16.5 / Rootless）及 iPad（iPadOS 17.0 / RootHide）实测。其他设备与系统小版本尚未逐一实测。动态封面取决于 Apple Music 提供的资源和系统动画设置；没有动态资源时使用静态封面。"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Beta1.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "首个公开测试版本。\n\n- **沉浸式封面**：适配 iPhone、iPad。\n- **Apple Music 动态封面**：需要歌曲本身提供可用的动态封面。\n- **自然的锁屏体验**：展开封面时，封面全屏显示，时间缩小并移动到日期旁。"
+        }
+      ]
+    }
+  ]
+}

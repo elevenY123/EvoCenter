@@ -1,0 +1,145 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://eleveny123.github.io/ArtMotion/assets/banner.png",
+  "tintColor": "#507DA8",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "ArtMotion brings immersive album artwork to Music and the Lock Screen on iPhone and iPad.\n\n- **Immersive artwork** for iPhone and iPad.\n- **Apple Music animated artwork**, where the song provides an available animated cover.\n- **A natural Lock Screen experience**: artwork expands to full screen while the time moves beside the date."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Screenshots"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{206, 420}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/1.jpg",
+              "accessibilityText": "ArtMotion screenshot 1"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/2.jpg",
+              "accessibilityText": "ArtMotion screenshot 2"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/3.jpg",
+              "accessibilityText": "ArtMotion screenshot 3"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/4.jpg",
+              "accessibilityText": "ArtMotion screenshot 4"
+            }
+          ]
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{440, 337}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/5.jpg",
+              "accessibilityText": "ArtMotion screenshot 5"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/6.jpg",
+              "accessibilityText": "ArtMotion screenshot 6"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/7.jpg",
+              "accessibilityText": "ArtMotion screenshot 7"
+            },
+            {
+              "url": "https://eleveny123.github.io/ArtMotion/assets/screenshots/8.jpg",
+              "accessibilityText": "ArtMotion screenshot 8"
+            }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Developers"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- ChatGPT6.1\n- JaySuen"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Feedback"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Include your device, OS and jailbreak environment, ArtMotion version, reproduction steps, and a screenshot or crash log. In the Coolapk app, search for JAYSuen to send a private message, or search for ArtMotion and comment on the latest post."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Acknowledgements"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Thanks to ArtFull and its author Ethan Whited (ETHN / nahtedetihw) for their album-artwork design and open-source work."
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Open Coolapk",
+          "action": "https://www.coolapk.com/",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "OS",
+          "text": "iOS / iPadOS 16–17"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Jailbreak",
+          "text": "Rootless / RootHide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "CPU",
+          "text": "arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "Beta1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Category",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Every package supports both OS families. For arm64e devices; arm64 devices should install ArtMotion (Legacy).\n\nTested on an iOS 16.5 Rootless iPhone 14 Pro and an iPadOS 17.0 RootHide iPad. Other device and OS combinations have not been individually tested. Animated artwork depends on available Apple Music resources and system animation settings; static artwork is used when no animated resource is available."
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Beta1.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "First public beta release.\n\n- **Immersive artwork** for iPhone and iPad.\n- **Apple Music animated artwork**, where the song provides an available animated cover.\n- **A natural Lock Screen experience**: artwork expands to full screen while the time moves beside the date."
+        }
+      ]
+    }
+  ]
+}

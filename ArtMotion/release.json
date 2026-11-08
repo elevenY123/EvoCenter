@@ -1,0 +1,152 @@
+{
+  "name": "ArtMotion",
+  "version": "1.0~beta1.0",
+  "releaseLabel": "Beta1.0",
+  "releaseDate": "2026-11-08",
+  "developers": [
+    "ChatGPT6.1",
+    "JaySuen"
+  ],
+  "osFamiliesPerPackage": [
+    16,
+    17
+  ],
+  "variants": [
+    {
+      "package": "com.jaysuen.artmotion",
+      "name": "ArtMotion",
+      "cpu": "arm64e"
+    },
+    {
+      "package": "com.jaysuen.artmotion.legacy",
+      "name": "ArtMotion（Legacy）",
+      "cpu": "arm64"
+    }
+  ],
+  "packages": [
+    {
+      "file": "ArtMotion_1.0~beta1.0_arm64_rootless.deb",
+      "package": "com.jaysuen.artmotion.legacy",
+      "name": "ArtMotion（Legacy）",
+      "cpu": "arm64",
+      "scheme": "rootless",
+      "sha256": "ec7efb94e6508af2af77b032c0193c69a3ca1e299d5c38c59b9eba54a7840ad2",
+      "url": "https://eleveny123.github.io/debs/ArtMotion_1.0~beta1.0_arm64_rootless.deb",
+      "bytes": 282276
+    },
+    {
+      "file": "ArtMotion_1.0~beta1.0_arm64_roothide.deb",
+      "package": "com.jaysuen.artmotion.legacy",
+      "name": "ArtMotion（Legacy）",
+      "cpu": "arm64",
+      "scheme": "roothide",
+      "sha256": "37c15a2b9dda01322bd1e061faf073556429bb80641b2577ad23771d1089d1bc",
+      "url": "https://eleveny123.github.io/debs/ArtMotion_1.0~beta1.0_arm64_roothide.deb",
+      "bytes": 282804
+    },
+    {
+      "file": "ArtMotion_1.0~beta1.0_arm64e_rootless.deb",
+      "package": "com.jaysuen.artmotion",
+      "name": "ArtMotion",
+      "cpu": "arm64e",
+      "scheme": "rootless",
+      "sha256": "7f0c2c936217e2b3ec9bd5b41b3478664cea0470dedc5bfdf4ce08a7c6ea05e4",
+      "url": "https://eleveny123.github.io/debs/ArtMotion_1.0~beta1.0_arm64e_rootless.deb",
+      "bytes": 281316
+    },
+    {
+      "file": "ArtMotion_1.0~beta1.0_arm64e_roothide.deb",
+      "package": "com.jaysuen.artmotion",
+      "name": "ArtMotion",
+      "cpu": "arm64e",
+      "scheme": "roothide",
+      "sha256": "bbc5277de8f018b4de5cf345ab8f4ca9c12761f5cdbdc64f9d601e609f5c00da",
+      "url": "https://eleveny123.github.io/debs/ArtMotion_1.0~beta1.0_arm64e_roothide.deb",
+      "bytes": 281580
+    }
+  ],
+  "screenshots": [
+    {
+      "order": 1,
+      "file": "assets/screenshots/1.jpg",
+      "caption": "iPhone 音乐播放页",
+      "width": 1311,
+      "height": 2670,
+      "sha256": "40414807c868e5507a1055879718c6f6506039814c3269949735d3de3946df28",
+      "bytes": 534492,
+      "originalSHA256": "f7ca26a76e0ea26356698bcea831a820071da7ba08b4e6400fbe21e16e9466c5"
+    },
+    {
+      "order": 2,
+      "file": "assets/screenshots/2.jpg",
+      "caption": "iPhone 音乐播放页",
+      "width": 1311,
+      "height": 2670,
+      "sha256": "d22aa8e1c76e135eac5b900d6ba247e272cdf375c2aa173d6582f414b393a1c2",
+      "bytes": 659968,
+      "originalSHA256": "bf9e9d7e07e6440bc409d3ab5a385eeb9cac40a56e89d33d18f73fafaced98d8"
+    },
+    {
+      "order": 3,
+      "file": "assets/screenshots/3.jpg",
+      "caption": "iPhone 锁屏",
+      "width": 1311,
+      "height": 2670,
+      "sha256": "153d973c3c4046ddd466ae06babea6a07f32c1b50a468f9a2da5d817c5c63a83",
+      "bytes": 772457,
+      "originalSHA256": "70b8e406c3f87a9ed28a6f922f570f4e293c0c52c9a8e1c20e17a0a7f8b39367"
+    },
+    {
+      "order": 4,
+      "file": "assets/screenshots/4.jpg",
+      "caption": "iPhone 锁屏",
+      "width": 1311,
+      "height": 2670,
+      "sha256": "8bd6f94ecf4d3e78c4d3c77202a865f381c5fb178108f896a1938abc990de94b",
+      "bytes": 512610,
+      "originalSHA256": "f91da2b7467f38323cfc690ca1d05d9216a6cda137fb5ad39733bfa28eba4559"
+    },
+    {
+      "order": 5,
+      "file": "assets/screenshots/5.jpg",
+      "caption": "iPad 横屏锁屏",
+      "width": 2928,
+      "height": 2244,
+      "sha256": "7875d2a7199878a996b7c21fe02cebf6c1fd039dca38bb8951b71f838279d17e",
+      "bytes": 782534,
+      "originalSHA256": "b93edd50b653148e7e3154ec1f77b755c23258445615dd9f3e03e9085c7c6f98"
+    },
+    {
+      "order": 6,
+      "file": "assets/screenshots/6.jpg",
+      "caption": "iPad 横屏锁屏",
+      "width": 2928,
+      "height": 2244,
+      "sha256": "92c8a61a9c367f8f2c9e17af78f4c43b261251edade4f1ea1f7a4a8922704bc9",
+      "bytes": 1665996,
+      "originalSHA256": "7e4143b42d12bb85ebf6d4bdc37aac8c18fe32334ede9e05a2ccbf26cbc264a4"
+    },
+    {
+      "order": 7,
+      "file": "assets/screenshots/7.jpg",
+      "caption": "iPad 横屏歌词播放页",
+      "width": 2928,
+      "height": 2244,
+      "sha256": "f8f9fed2f251f43ff7fc9087c747bb3901eb32af60cf58634722372eb89eca7b",
+      "bytes": 635571,
+      "originalSHA256": "be35e0dc01fdd59eb8a5cd5663430f170fdf00c277857e18167b1c5b59648f96"
+    },
+    {
+      "order": 8,
+      "file": "assets/screenshots/8.jpg",
+      "caption": "iPad 横屏歌词播放页",
+      "width": 2928,
+      "height": 2244,
+      "sha256": "cb0908c7a0b9f05faa7f54c9317e4d2515973da3309f536a72abfdd0b803944d",
+      "bytes": 747914,
+      "originalSHA256": "6dfe1546acfd1ccccd57b1a50edb755e9a9f41a9163ec8a1019e1d04bae1d645"
+    }
+  ],
+  "feedback": "Coolapk: JAYSuen",
+  "copyStatus": "user-edited-and-approved"
+}
