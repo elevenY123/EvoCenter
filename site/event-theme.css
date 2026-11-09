@@ -1,0 +1,51 @@
+/* The normal stylesheet and every original image stay untouched. */
+.event-hero{display:none}
+html.gta6{color-scheme:dark;--page:#140f26;--surface:#21172f;--ink:#fff5ee;--secondary:#cfbfd4;--line:#ffffff1c;--blue:#ffb3ce;--tint:#ff86ba16;--glass:#191123ed;--focus:#ffbcce;--shadow:0 14px 45px #05020f25}
+html.gta6 body{background:#140f26;color:#fff5ee}
+.gta6 .topbar{background:#140f26;border-color:#ffffff14}
+.gta6 .topbar .brand{letter-spacing:-.5px}
+.gta6 .topbar .brand img{box-shadow:0 0 0 1px #ffc1db30}
+.gta6 .topnav a:hover{color:#ffc0d5}
+.gta6 .event-hero{display:grid;position:relative;isolation:isolate;overflow:hidden;background:#281734 url('events/gta6-2026/hero.jpg') center 65%/cover no-repeat;min-height:455px;border-bottom:1px solid #e2a2c51c}
+.gta6 .event-hero:before{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(90deg,#180e2be8 0%,#1d123b85 40%,#1d123b00 75%),linear-gradient(0deg,#140f26 0%,#140f2600 22%)}
+.event-hero-inner{padding-top:48px;padding-bottom:48px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.event-kicker{display:flex;align-items:center;gap:12px;font-size:11px;font-weight:750;letter-spacing:2px;margin:0 0 18px;color:#ffb8d2}
+.event-kicker:before{content:"VI";display:grid;place-items:center;font:900 18px/1 Arial,sans-serif;letter-spacing:-1px;color:#2b1539;background:linear-gradient(135deg,#ffdeaf,#ff95bf);width:33px;height:30px;border-radius:4px}
+.event-title{font:950 clamp(52px,6.6vw,86px)/.94 -apple-system,BlinkMacSystemFont,"Arial Black",sans-serif;letter-spacing:-4px;margin:0 0 20px;text-transform:uppercase;max-width:620px;text-shadow:0 2px 16px #10071c35}
+.event-title span{color:#ffb2cd}
+.event-description{font-size:15px;line-height:1.6;letter-spacing:.5px;margin:0 0 20px;color:#f0dbe5}
+.event-period{display:inline-flex;align-items:center;flex-wrap:wrap;gap:12px;font-size:10px;font-weight:600;letter-spacing:1px;color:#dbb8cf}
+.event-period strong{border:1px solid #ffb7d545;border-radius:5px;padding:5px 10px;color:#ffe7ec;font-size:11px}
+.event-preview{display:none}.gta6-preview .event-preview{display:inline;padding:3px 7px;background:#ffd3ba;color:#341b3e;border-radius:3px}
+.gta6 .intro{padding-top:30px}
+.gta6 .intro h1{font-size:30px;letter-spacing:-.8px}
+.gta6 .intro .eyebrow{color:#e2a3c5}
+.gta6 .tweak{border-color:#f0bdd126;background:linear-gradient(130deg,#2c1d3c,#20182e 70%);box-shadow:0 12px 45px #07030f2b}
+.gta6 .tweak h2{color:#fff3e9}
+.gta6 .app-icon{box-shadow:0 0 0 1px #ffa4c931,0 4px 22px #0b051f66}
+.gta6 .detail-link{background:#ffacd3;color:#30182c}
+.gta6 .detail-link:hover{background:#ffd2e2}
+.gta6 .search{background:#241a33;border-color:#a47c9c3b}
+.gta6 .shot{box-shadow:0 0 0 1px #ffffff0d}
+.gta6 .source-bar{background:#191123ed;border-color:#f7add129}
+.gta6 .source-button.sileo{background:#ffb6cd;color:#34182d}
+.gta6 .source-button.zebra{background:#54416b;color:#fff2f5}
+.gta6 .page-footer{color:#ac92b4}
+.gta6 .page-footer a{color:#ffb9d1}
+.gta6[data-page="detail"] main{color:#fff5ee}
+.gta6[data-page="detail"] article{background:#24182f;border-color:#d3b0d326}
+.gta6[data-page="detail"] a{color:#ffb3ce}
+.gta6[data-page="detail"] .tabs button[aria-selected="true"]{color:#ffb3ce;border-bottom-color:#ffb3ce}
+@media(max-width:700px){
+ .gta6 .event-hero{min-height:300px;background-image:url('events/gta6-2026/hero-small.jpg');background-position:67% center}
+ .gta6 .event-hero:before{background:linear-gradient(90deg,#1a0c29d9,#21123647 70%),linear-gradient(0deg,#140f26,#140f2600 30%)}
+ .event-hero-inner{padding-top:27px;padding-bottom:27px}
+ .event-kicker{font-size:9px;letter-spacing:1.5px;margin-bottom:17px}
+ .event-title{font-size:44px;letter-spacing:-2px;line-height:.95;max-width:100%;margin-bottom:16px}
+ .event-description{font-size:12px;letter-spacing:.1px;max-width:270px;margin-bottom:17px}
+ .event-period{font-size:9px;gap:9px;letter-spacing:.1px}
+ .gta6 .intro h1{font-size:25px}
+ .gta6 .intro .eyebrow{display:none}
+ .gta6 .intro{padding-top:24px}
+}
+@media(max-width:370px){.event-title{font-size:38px}.event-kicker{font-size:8px;letter-spacing:1px}.event-period{max-width:290px}}

@@ -4,6 +4,8 @@ from functools import partial
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from threading import Thread
 import json
+import os
+from datetime import datetime
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,6 +16,8 @@ Thread(target=server.serve_forever, daemon=True).start()
 url = f'http://127.0.0.1:{server.server_port}/'
 results = []
 scripts_disabled_passed = False
+event_at = os.environ.get('THEME_TEST_AT')
+prefix = 'gta6-' if event_at else ''
 catalog = json.loads((ROOT / 'site/catalog.json').read_text())['apps']
 assert catalog[0]['version'] == json.loads((ROOT / 'release.json').read_text())['releaseLabel'].replace('测试版','')
 assert catalog[1]['version'] == json.loads((ROOT / 'ArtMotion/release.json').read_text())['releaseLabel']
@@ -25,10 +29,18 @@ try:
                 ('ipad',820,1180,'light'), ('desktop',1440,1050,'light'), ('iphone-dark',390,844,'dark')]:
             context = browser.new_context(viewport={'width':width,'height':height}, device_scale_factor=2, color_scheme=scheme, reduced_motion='reduce', permissions=['clipboard-read','clipboard-write'])
             page = context.new_page()
+            if event_at:
+                page.clock.install(time=datetime.fromisoformat(event_at))
             errors, missing = [], []
             page.on('pageerror', lambda e: errors.append(str(e)))
             page.on('response', lambda r: missing.append(r.url) if r.status >= 400 else None)
             page.goto(url, wait_until='networkidle')
+            if event_at:
+                assert page.locator('html.gta6').count() == 1
+                assert page.locator('.event-hero').is_visible()
+                assert all('/site/events/gta6-2026/' in img.get_attribute('src') for img in page.locator('.app-icon').all())
+                if width < 700:
+                    assert page.locator('.event-hero').bounding_box()['height'] <= 340
             page.locator('.tweak').last.scroll_into_view_if_needed()
             page.wait_for_timeout(300)
             page.evaluate('window.scrollTo(0,0)')
@@ -43,8 +55,10 @@ try:
                 for box in page.locator(selector).all():
                     bounds = box.bounding_box()
                     assert bounds['x'] >= 0 and bounds['x'] + bounds['width'] <= width + 1, (name, selector, bounds)
-            page.screenshot(path=str(OUT / f'{name}.png'), full_page=True)
-            page.screenshot(path=str(OUT / f'{name}-viewport.png'))
+            page.screenshot(path=str(OUT / f'{prefix}{name}.png'), full_page=True)
+            page.screenshot(path=str(OUT / f'{prefix}{name}-viewport.png'))
+            if event_at:
+                page.screenshot(path=str(OUT / f'{prefix}{name}-viewport.jpg'), type='jpeg', quality=85)
             page.locator('#search').fill('音乐')
             assert page.locator('.tweak:visible').count() == 1 and page.locator('#artmotion').is_visible()
             page.locator('#search').fill('unmatched-keyword')
@@ -56,7 +70,7 @@ try:
             page.locator('#lightbox img').wait_for(state='visible')
             page.wait_for_function("document.querySelector('#lightbox img').complete && document.querySelector('#lightbox img').naturalWidth > 0")
             if name in ('iphone','desktop'):
-                page.screenshot(path=str(OUT / f'{name}-lightbox.png'))
+                page.screenshot(path=str(OUT / f'{prefix}{name}-lightbox.png'))
             page.locator('#lightbox [data-next]').click()
             assert page.locator('#lightbox-caption').inner_text() == '实机截图 2 / 5'
             page.keyboard.press('ArrowLeft')
@@ -75,8 +89,19 @@ try:
             page.locator('#evocenter .detail-link').click()
             assert 'evocenter.html' in page.url
             assert page.locator('h1').inner_text() == 'Evo Center'
+            if event_at:
+                assert '/site/events/gta6-2026/evocenter-banner.jpg' in page.locator('.banner').get_attribute('src')
             page.locator('.repo-back').click()
             assert page.title() == 'JaySuen Repo · 越狱插件'
+            if event_at:
+                # Expiry restores an already-open page, including stock image URLs.
+                page.clock.set_fixed_time(datetime.fromisoformat('2026-11-20T00:00:00+08:00'))
+                page.evaluate("document.dispatchEvent(new Event('visibilitychange'))")
+                assert page.locator('html.gta6').count() == 0
+                assert not page.locator('.event-hero').is_visible()
+                assert all(img.get_attribute('src').startswith('site/icons/') for img in page.locator('.app-icon').all())
+                page.reload(wait_until='networkidle')
+                assert page.locator('html.gta6').count() == 0
             assert not errors, (name, errors)
             assert not missing, (name, missing)
             results.append({'viewport':name,'width':width,'height':height,'theme':scheme,'status':'PASS'})
@@ -91,5 +116,5 @@ try:
         context.close(); browser.close()
 finally:
     server.shutdown()
-    (OUT / 'results.json').write_text(json.dumps({'viewports':results,'javascriptDisabledContent':scripts_disabled_passed},ensure_ascii=False,indent=2)+'\n')
+    (OUT / f'{prefix}results.json').write_text(json.dumps({'viewports':results,'javascriptDisabledContent':scripts_disabled_passed},ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(results))

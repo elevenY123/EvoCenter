@@ -120,4 +120,6 @@ document = f'''<!doctype html>
 </body></html>
 '''
 (ROOT / 'index.html').write_text(document)
+from event_presentation import install
+install(ROOT)
 print(f'Built repository homepage: {len(apps)} products, {sum(len(a["screenshots"]) for a in apps)} ordered screenshots, {len(jobs)} preview assets.')

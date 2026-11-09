@@ -1,0 +1,81 @@
+name: GTA VI limited artwork schedule
+on:
+  push:
+    branches: [main]
+    paths: ['Tools/event-theme.py', 'Tools/check-event-theme.py', 'site/events/gta6-2026/**', '.github/workflows/event-theme.yml']
+  schedule:
+    # UTC 16:00 is 00:00 in Shanghai. Non-peak retries cover scheduler delays.
+    - cron: '0,7,22,37,52 16-18 9,19 11 *'
+    - cron: '17 4 * 11 *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  actions: write
+concurrency:
+  group: limited-artwork-${{ github.repository }}
+  cancel-in-progress: false
+jobs:
+  reconcile:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check reversible theme and package integrity
+        run: python Tools/check-event-theme.py
+      - name: Reconcile with the ten-day window
+        id: theme
+        run: python Tools/event-theme.py --status-file "$RUNNER_TEMP/theme-status.json"
+      - name: Commit only owned presentation fields
+        run: |
+          git add -- Packages Packages.gz Packages.bz2 Packages.xz Release Packages-fields.txt native.json native-legacy.json ArtMotion/native.json ArtMotion/native-legacy.json ArtMotion/native.en.json ArtMotion/native-legacy.en.json IslandBlur/native.json sileo-featured.json site/events/gta6-2026/normal.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Reconcile limited GTA VI store artwork with event window'
+            git push origin HEAD:main
+          fi
+      # GITHUB_TOKEN pushes do not start Pages builds by themselves.
+      - name: Explicitly request the branch-based Pages build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" --jq '{status, url}'
+      - name: Verify the Pages build before completing the event
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, os, subprocess, time
+          head = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
+          endpoint = 'repos/' + os.environ['GITHUB_REPOSITORY'] + '/pages/builds/latest'
+          for attempt in range(36):
+              build = json.loads(subprocess.check_output(['gh', 'api', endpoint], text=True))
+              status = build.get('status')
+              print('Pages:', status, build.get('commit', '')[:8], flush=True)
+              if build.get('commit') == head:
+                  if status == 'built': break
+                  if status == 'errored': raise RuntimeError(build.get('error'))
+              time.sleep(8)
+          else:
+              raise RuntimeError('Pages build not verified; keep the schedule enabled for its next retry')
+          PY
+      - name: Record reconciliation
+        run: cat "$RUNNER_TEMP/theme-status.json" >> "$GITHUB_STEP_SUMMARY"
+      - name: Stop the event schedule after restoration
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, os, subprocess
+          from datetime import datetime, timezone
+          with open(os.environ['RUNNER_TEMP'] + '/theme-status.json') as f:
+              status = json.load(f)
+          if datetime.now(timezone.utc) >= datetime.fromisoformat(status['endExclusive']):
+              subprocess.run(['gh', 'api', '--method', 'PUT', 'repos/' + os.environ['GITHUB_REPOSITORY'] + '/actions/workflows/event-theme.yml/disable'], check=True)
+          PY
