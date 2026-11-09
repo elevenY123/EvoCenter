@@ -19,7 +19,7 @@ jobs:
   reconcile:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -54,7 +54,7 @@ jobs:
           import json, os, subprocess, time
           head = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
           endpoint = 'repos/' + os.environ['GITHUB_REPOSITORY'] + '/pages/builds/latest'
-          for attempt in range(36):
+          for attempt in range(90):
               build = json.loads(subprocess.check_output(['gh', 'api', endpoint], text=True))
               status = build.get('status')
               print('Pages:', status, build.get('commit', '')[:8], flush=True)
