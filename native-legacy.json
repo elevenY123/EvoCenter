@@ -1,8 +1,8 @@
 {
   "class": "DepictionTabView",
   "minVersion": "0.4",
-  "headerImage": "https://eleveny123.github.io/EvoCenter/assets/banner.png",
-  "tintColor": "#007AFF",
+  "headerImage": "https://eleveny123.github.io/site/events/gta6-2026/evocenter-banner.jpg",
+  "tintColor": "#F9A8CE",
   "tabs": [
     {
       "class": "DepictionStackView",

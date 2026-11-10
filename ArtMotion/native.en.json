@@ -1,8 +1,8 @@
 {
   "class": "DepictionTabView",
   "minVersion": "0.4",
-  "headerImage": "https://eleveny123.github.io/ArtMotion/assets/banner.png",
-  "tintColor": "#507DA8",
+  "headerImage": "https://eleveny123.github.io/site/events/gta6-2026/artmotion-banner.jpg",
+  "tintColor": "#F9A8CE",
   "tabs": [
     {
       "class": "DepictionStackView",

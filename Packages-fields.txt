@@ -3,7 +3,7 @@ Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
 Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
 Name: Evo Center
 Section: Tweaks
-Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Icon: https://eleveny123.github.io/site/events/gta6-2026/evocenter-icon-192.png
 Depiction: https://eleveny123.github.io/evocenter.html
 SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.1.0-beta.2&r=beta41fix2-20261101
 Homepage: https://eleveny123.github.io/evocenter.html
