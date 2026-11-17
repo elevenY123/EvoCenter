@@ -85,7 +85,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "Beta4.1测试版"
+          "text": "Beta4.2测试版"
         },
         {
           "class": "DepictionTableTextView",
@@ -98,6 +98,14 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "beta4.2修复性更新"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 修复一直以来的“播放控制”模块的媒体名称和媒体作者两行文字重叠的问题\n2. 修复focus模块从展开视图返回紧凑视图的动画错误\n3. 修复顶部电源按钮展开时，菜单底部的圆角大小错误\n4. 优化“自定义控制中心”的设置项排布\n5. 新增控制中心整体上下移动功能"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "Beta4.1修复性更新"
