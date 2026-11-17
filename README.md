@@ -10,7 +10,7 @@ JaySuen 的 iOS 越狱插件源，当前提供 Evo Center、IslandBlur 与 ArtMo
 
 在 Sileo、Zebra 或其他兼容 APT 的越狱包管理器中添加上述地址即可。
 
-## ArtMotion Beta1.0
+## ArtMotion Beta1.5
 
 - [ArtMotion](https://eleveny123.github.io/ArtMotion/)：arm64e 设备。
 - [ArtMotion（Legacy）](https://eleveny123.github.io/ArtMotion/legacy.html)：arm64 设备。

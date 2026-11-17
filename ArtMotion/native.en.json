@@ -114,7 +114,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "Beta1.0"
+          "text": "Beta1.5"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,6 +131,14 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Beta1.5 · Bug fixes"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed the Now Playing card jumping when album artwork is expanded or collapsed.\n- Fixed an issue where ArtMotion had no effect for some users after installation."
+        },
         {
           "class": "DepictionHeaderView",
           "title": "Beta1.0"

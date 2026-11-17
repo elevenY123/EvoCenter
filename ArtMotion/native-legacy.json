@@ -114,7 +114,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "Beta1.0"
+          "text": "Beta1.5"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,6 +131,14 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Beta1.5 修复性更新"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复“播放控制”卡片放大或收起专辑封面时跳动\n- 修复部分用户安装后不生效的bug"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "Beta1.0"

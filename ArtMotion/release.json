@@ -1,8 +1,8 @@
 {
   "name": "ArtMotion",
-  "version": "1.0~beta1.0",
-  "releaseLabel": "Beta1.0",
-  "releaseDate": "2026-11-08",
+  "version": "1.0~beta1.5",
+  "releaseLabel": "Beta1.5",
+  "releaseDate": "2026-11-17",
   "developers": [
     "ChatGPT6.1",
     "JaySuen"
@@ -25,44 +25,44 @@
   ],
   "packages": [
     {
-      "file": "ArtMotion_1.0~beta1.0_arm64_rootless.deb",
+      "file": "ArtMotion_1.0~beta1.5_arm64_rootless.deb",
       "package": "com.jaysuen.artmotion.legacy",
       "name": "ArtMotion（Legacy）",
       "cpu": "arm64",
       "scheme": "rootless",
-      "sha256": "ec7efb94e6508af2af77b032c0193c69a3ca1e299d5c38c59b9eba54a7840ad2",
-      "url": "https://eleveny123.github.io/debs/ArtMotion_1.0~beta1.0_arm64_rootless.deb",
-      "bytes": 282276
+      "sha256": "54ca4c7ef8914f0cc08830b939fd3f3805092ecf042b12f161678e8664f243a4",
+      "url": "https://eleveny123.github.io/EvoCenter/debs/ArtMotion_1.0~beta1.5_arm64_rootless.deb",
+      "bytes": 288860
     },
     {
-      "file": "ArtMotion_1.0~beta1.0_arm64_roothide.deb",
+      "file": "ArtMotion_1.0~beta1.5_arm64_roothide.deb",
       "package": "com.jaysuen.artmotion.legacy",
       "name": "ArtMotion（Legacy）",
       "cpu": "arm64",
       "scheme": "roothide",
-      "sha256": "37c15a2b9dda01322bd1e061faf073556429bb80641b2577ad23771d1089d1bc",
-      "url": "https://eleveny123.github.io/debs/ArtMotion_1.0~beta1.0_arm64_roothide.deb",
-      "bytes": 282804
+      "sha256": "fdabffa4db5e1fc68b1182fbc21d5969591ffb8b20d7638c65ce882b6915a25f",
+      "url": "https://eleveny123.github.io/EvoCenter/debs/ArtMotion_1.0~beta1.5_arm64_roothide.deb",
+      "bytes": 290836
     },
     {
-      "file": "ArtMotion_1.0~beta1.0_arm64e_rootless.deb",
+      "file": "ArtMotion_1.0~beta1.5_arm64e_rootless.deb",
       "package": "com.jaysuen.artmotion",
       "name": "ArtMotion",
       "cpu": "arm64e",
       "scheme": "rootless",
-      "sha256": "7f0c2c936217e2b3ec9bd5b41b3478664cea0470dedc5bfdf4ce08a7c6ea05e4",
-      "url": "https://eleveny123.github.io/debs/ArtMotion_1.0~beta1.0_arm64e_rootless.deb",
-      "bytes": 281316
+      "sha256": "f81f711787874ea32ec801f3464184cb877ab2011c089a9ef639c402b1130bd2",
+      "url": "https://eleveny123.github.io/EvoCenter/debs/ArtMotion_1.0~beta1.5_arm64e_rootless.deb",
+      "bytes": 287540
     },
     {
-      "file": "ArtMotion_1.0~beta1.0_arm64e_roothide.deb",
+      "file": "ArtMotion_1.0~beta1.5_arm64e_roothide.deb",
       "package": "com.jaysuen.artmotion",
       "name": "ArtMotion",
       "cpu": "arm64e",
       "scheme": "roothide",
-      "sha256": "bbc5277de8f018b4de5cf345ab8f4ca9c12761f5cdbdc64f9d601e609f5c00da",
-      "url": "https://eleveny123.github.io/debs/ArtMotion_1.0~beta1.0_arm64e_roothide.deb",
-      "bytes": 281580
+      "sha256": "c5002263d16ed6562f714585b7ebf92053a30c37bf0d305137096525150f1788",
+      "url": "https://eleveny123.github.io/EvoCenter/debs/ArtMotion_1.0~beta1.5_arm64e_roothide.deb",
+      "bytes": 289948
     }
   ],
   "screenshots": [

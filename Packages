@@ -768,97 +768,97 @@ SHA512: a835d23e2fa5daf5761d1ed95143acdada867979f14e2104d94f47ae3af192186c070dba
 
 Package: com.jaysuen.artmotion.legacy
 Name: ArtMotion（Legacy）
-Version: 1.0~beta1.0
+Version: 1.0~beta1.5
 Architecture: iphoneos-arm64
-Description: Animated and static fullscreen artwork for Music and the Lock Screen on iOS 16 and 17, with responsive iPad layouts.
+Description: Immersive album artwork for Music and the Lock Screen, with responsive iPad layouts. iOS 15 and 18 are experimental.
 Maintainer: JaySuen
 Author: ChatGPT6.1, JaySuen
 Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.libsandy (>= 1.1)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy (>= 1.1)
 Conflicts: com.nahtedetihw.artfull, com.jaysuen.artmotion
 Replaces: com.nahtedetihw.artfull, com.jaysuen.artmotion
 X-ArtMotion-CPU: arm64
 Homepage: https://eleveny123.github.io/ArtMotion/legacy.html
 Depiction: https://eleveny123.github.io/ArtMotion/legacy.html
 SileoDepiction: https://eleveny123.github.io/ArtMotion/native-legacy.json
-X-ArtMotion-Release: Beta1.0
+X-ArtMotion-Release: Beta1.5
 Icon: https://eleveny123.github.io/site/events/gta6-2026/artmotion-icon-192.png
-Filename: debs/ArtMotion_1.0~beta1.0_arm64_rootless.deb
-Size: 282276
-MD5sum: bab9b376b21197774396b29a5c9e249e
-SHA1: 9b8c6240196e91298b7dfebd9ce9f249706f4325
-SHA256: ec7efb94e6508af2af77b032c0193c69a3ca1e299d5c38c59b9eba54a7840ad2
-SHA512: f099ce8dde3e407f16d36bf2e95e9eb5ea0f72d50697f91f0b96cf025a9a8b1a33a57c6ee99ffdd588d00cac4f378b4c99a217554051a31d25e546b4e5e48c08
+Filename: debs/ArtMotion_1.0~beta1.5_arm64_rootless.deb
+Size: 288860
+MD5sum: 72224e186d92ba2ef0edfadbc0f631ef
+SHA1: 2b4817c7870a5135d375110fd5591eee4c9342de
+SHA256: 54ca4c7ef8914f0cc08830b939fd3f3805092ecf042b12f161678e8664f243a4
+SHA512: 61d99d1893edc5750be19dd68ab55c28a9923ad6f43f2aa1d6642d86cbdac601eefe16497ce307a7f07b0088943d5c3ae299dfdfa04a3319bf0c22a4bfbd188a
 
 Package: com.jaysuen.artmotion.legacy
 Name: ArtMotion（Legacy）
-Version: 1.0~beta1.0
+Version: 1.0~beta1.5
 Architecture: iphoneos-arm64e
-Description: Animated and static fullscreen artwork for Music and the Lock Screen on iOS 16 and 17, with responsive iPad layouts.
+Description: Immersive album artwork for Music and the Lock Screen, with responsive iPad layouts. iOS 15 and 18 are experimental.
 Maintainer: JaySuen
 Author: ChatGPT6.1, JaySuen
 Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Depends: mobilesubstrate, preferenceloader
 Conflicts: com.nahtedetihw.artfull, com.jaysuen.artmotion
 Replaces: com.nahtedetihw.artfull, com.jaysuen.artmotion
 X-ArtMotion-CPU: arm64
 Homepage: https://eleveny123.github.io/ArtMotion/legacy.html
 Depiction: https://eleveny123.github.io/ArtMotion/legacy.html
 SileoDepiction: https://eleveny123.github.io/ArtMotion/native-legacy.json
-X-ArtMotion-Release: Beta1.0
+X-ArtMotion-Release: Beta1.5
 Icon: https://eleveny123.github.io/site/events/gta6-2026/artmotion-icon-192.png
-Filename: debs/ArtMotion_1.0~beta1.0_arm64_roothide.deb
-Size: 282804
-MD5sum: 2f2c017bfeb9ceb961512acab0d4335d
-SHA1: c1bd2ee99373e1bf636df733b13756d611b06793
-SHA256: 37c15a2b9dda01322bd1e061faf073556429bb80641b2577ad23771d1089d1bc
-SHA512: 636438a4a0c882ec7cf98a10b49e278add574b4996f2452491a714ce919531ec1a03981c468184193537758d4c35808c59311d46b84daf168fdcc53a7d448fc3
+Filename: debs/ArtMotion_1.0~beta1.5_arm64_roothide.deb
+Size: 290836
+MD5sum: dbe107326257769fea58315bf4f1a1be
+SHA1: b98ca58d7a4683066a629ce578119a2e9aede2b9
+SHA256: fdabffa4db5e1fc68b1182fbc21d5969591ffb8b20d7638c65ce882b6915a25f
+SHA512: b9df2523e02cf1bbbae13289a8cb61c8a792e28d48adabfdd18ae72dfc888665efba62c08be658e926d7a0e706c5f01402ec60d6497a04ddc858af2f6fbd6305
 
 Package: com.jaysuen.artmotion
 Name: ArtMotion
-Version: 1.0~beta1.0
+Version: 1.0~beta1.5
 Architecture: iphoneos-arm64
-Description: Animated and static fullscreen artwork for Music and the Lock Screen on iOS 16 and 17, with responsive iPad layouts.
+Description: Immersive album artwork for Music and the Lock Screen, with responsive iPad layouts. iOS 15 and 18 are experimental.
 Maintainer: JaySuen
 Author: ChatGPT6.1, JaySuen
 Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.libsandy (>= 1.1)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy (>= 1.1)
 Conflicts: com.nahtedetihw.artfull, com.jaysuen.artmotion.legacy
 Replaces: com.nahtedetihw.artfull, com.jaysuen.artmotion.legacy
 X-ArtMotion-CPU: arm64e
 Homepage: https://eleveny123.github.io/ArtMotion/
 Depiction: https://eleveny123.github.io/ArtMotion/
 SileoDepiction: https://eleveny123.github.io/ArtMotion/native.json
-X-ArtMotion-Release: Beta1.0
+X-ArtMotion-Release: Beta1.5
 Icon: https://eleveny123.github.io/site/events/gta6-2026/artmotion-icon-192.png
-Filename: debs/ArtMotion_1.0~beta1.0_arm64e_rootless.deb
-Size: 281316
-MD5sum: e2a9048a3791f81c1b94d1e1df0d6a9d
-SHA1: b72df69652797520ac1e8d39c078560eb1be9fc6
-SHA256: 7f0c2c936217e2b3ec9bd5b41b3478664cea0470dedc5bfdf4ce08a7c6ea05e4
-SHA512: be5500b6df7215dea312ee02f0ac1b93dba3ac0f7f2f413409711e1e17c7d2d33312b957469840cb2aa8bbcd0fa6313540b2daeef4a3eb93a8bd1ccb79348861
+Filename: debs/ArtMotion_1.0~beta1.5_arm64e_rootless.deb
+Size: 287540
+MD5sum: 9da69f6cc3be7f5c6d85bbab2c2678bb
+SHA1: 194944c1b9958cc50e94617463bd4c135c489765
+SHA256: f81f711787874ea32ec801f3464184cb877ab2011c089a9ef639c402b1130bd2
+SHA512: bb86ea111ae3b577f0b6b60fc3b90da2832135f1cc619484540ce5d2c4580d24531480ececb10cdec68228d0af01e75f1d323c148e5cb8c2a6f1f4345b0394b5
 
 Package: com.jaysuen.artmotion
 Name: ArtMotion
-Version: 1.0~beta1.0
+Version: 1.0~beta1.5
 Architecture: iphoneos-arm64e
-Description: Animated and static fullscreen artwork for Music and the Lock Screen on iOS 16 and 17, with responsive iPad layouts.
+Description: Immersive album artwork for Music and the Lock Screen, with responsive iPad layouts. iOS 15 and 18 are experimental.
 Maintainer: JaySuen
 Author: ChatGPT6.1, JaySuen
 Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Depends: mobilesubstrate, preferenceloader
 Conflicts: com.nahtedetihw.artfull, com.jaysuen.artmotion.legacy
 Replaces: com.nahtedetihw.artfull, com.jaysuen.artmotion.legacy
 X-ArtMotion-CPU: arm64e
 Homepage: https://eleveny123.github.io/ArtMotion/
 Depiction: https://eleveny123.github.io/ArtMotion/
 SileoDepiction: https://eleveny123.github.io/ArtMotion/native.json
-X-ArtMotion-Release: Beta1.0
+X-ArtMotion-Release: Beta1.5
 Icon: https://eleveny123.github.io/site/events/gta6-2026/artmotion-icon-192.png
-Filename: debs/ArtMotion_1.0~beta1.0_arm64e_roothide.deb
-Size: 281580
-MD5sum: 35c4dcdc2cc9ed54dc7d5d7d76ad20f4
-SHA1: f700c7cfb6686d201bcbbdb86099e2ff1f9c3ea3
-SHA256: bbc5277de8f018b4de5cf345ab8f4ca9c12761f5cdbdc64f9d601e609f5c00da
-SHA512: 2321ad360badec934cbe4ed54b7fea6ebe4cba09fd7e57336b1a025b7c349e2e4e10ee67fdc8f700e26da3fafca5bc58f6b8958fe813c88a47575b4c226cbdf9
+Filename: debs/ArtMotion_1.0~beta1.5_arm64e_roothide.deb
+Size: 289948
+MD5sum: 28927d5951745f3789152d20f8058cb5
+SHA1: c56357ea2fd57d672305b53b09f1341cb9a2d538
+SHA256: c5002263d16ed6562f714585b7ebf92053a30c37bf0d305137096525150f1788
+SHA512: 133d519128efab28b69d8c0533636e94945e6b9ef54918be4cd1b86579ad6634a50432a3d6c02d36bb2d77fbd0ed0d253e538363f8b5b9dfbf58ab2709132468
 

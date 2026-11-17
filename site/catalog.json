@@ -69,7 +69,7 @@
       "name": "ArtMotion",
       "subtitle": "让专辑封面融入整个屏幕",
       "description": "音乐播放页与锁屏的沉浸式专辑封面。自然延展画面边缘，支持 Apple Music 动态封面与 iPad 布局。",
-      "version": "Beta1.0",
+      "version": "Beta1.5",
       "os": "iOS / iPadOS 16–17",
       "category": "音乐与锁屏",
       "keywords": "music album artwork lock screen animated 动态 专辑 封面 音乐 锁屏",
