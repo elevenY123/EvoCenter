@@ -4,37 +4,37 @@
   "itemCornerRadius": 10,
   "banners": [
     {
-      "url": "https://eleveny123.github.io/site/events/gta6-2026/evocenter-featured.jpg",
+      "url": "https://eleveny123.github.io/EvoCenter/assets/banner.png",
       "title": "Evo Center",
       "package": "com.jaysuen.evocenter",
       "hideShadow": false
     },
     {
-      "url": "https://eleveny123.github.io/site/events/gta6-2026/evocenter-featured.jpg",
+      "url": "https://eleveny123.github.io/EvoCenter/assets/banner.png",
       "title": "Evo Center（Legacy）",
       "package": "com.jaysuen.evocenter.arm64",
       "hideShadow": false
     },
     {
-      "url": "https://eleveny123.github.io/site/events/gta6-2026/islandblur-featured.jpg",
+      "url": "https://eleveny123.github.io/IslandBlur/assets/banner.png",
       "title": "IslandBlur",
       "package": "dev.islandglass.tweak",
       "hideShadow": false
     },
     {
-      "url": "https://eleveny123.github.io/site/events/gta6-2026/islandblur-featured.jpg",
+      "url": "https://eleveny123.github.io/IslandBlur/assets/banner.png",
       "title": "IslandBlur (Legacy)",
       "package": "dev.islandblur.arm64",
       "hideShadow": false
     },
     {
-      "url": "https://eleveny123.github.io/site/events/gta6-2026/artmotion-featured.jpg",
+      "url": "https://eleveny123.github.io/ArtMotion/assets/featured.png",
       "title": "ArtMotion",
       "package": "com.jaysuen.artmotion",
       "hideShadow": false
     },
     {
-      "url": "https://eleveny123.github.io/site/events/gta6-2026/artmotion-featured.jpg",
+      "url": "https://eleveny123.github.io/ArtMotion/assets/featured.png",
       "title": "ArtMotion（Legacy）",
       "package": "com.jaysuen.artmotion.legacy",
       "hideShadow": false
